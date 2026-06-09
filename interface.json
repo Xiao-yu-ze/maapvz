@@ -1,0 +1,94 @@
+{
+  "interface_version": 2,
+  "name": "Maapvz2",
+  "label" : "pvz2_早安",
+  "version": "1.0.0",
+  "icon": ".\\resource\\xyz.ico",
+  "github": "https://github.com/Xiao-yu-ze/first",
+  "custom_title": "Maapvz2_早安",
+  "description": "这是一次伟大尝试。",
+  "contact": "QQ群: 无",
+  "license": "MIT",
+  "welcome": "首次使用！欢迎使用 MAApvz2!",
+  "mirrorchyan_rid": "项目ID",
+  "mirrorchyan_multiplatform": false,
+
+  "controller": [
+    {
+      "name": "安卓端",
+      "type": "Adb",
+      "display_short_side": 1080 
+    }
+  ],
+
+  "resource": [    
+    {
+      "name": "通用",
+      "path": ["./resource"]
+    }
+  ],
+
+
+  "task": [    {
+      "name": "自动卡双赢",
+      "entry": "双赢",      
+      "default_check": false,
+      "description": "执行这个任务的时候,其他任务不要勾选"
+
+    },
+     
+
+    {
+      "name": "地宫无尽2",
+      "entry": "地宫2",
+      "default_check": false,
+      "description": "卡槽要带对,每行都要一个双发了再在选卡界面开脚本,",
+      "option": [
+        "无"
+      ]
+    },
+    {
+      "name": "参数任务",
+      "entry": "MyTask3",
+      "default_check": false,
+      "description": "参数任务说明文档",
+      "repeatable": true,
+      "repeat_count": 1,
+      "option": [
+        "任务选项1"
+      ],
+      "pipeline_override": {}
+    },
+    {
+      "name": "带Custom的任务",
+      "entry": "MyTask4",
+      "default_check": false,
+      "description": "带Custom的任务说明文档",
+      "repeatable": true,
+      "repeat_count": 1
+    }
+  ],
+  "option": {
+    "任务选项1": {
+      "type": "select",
+      "cases": [
+        {
+          "name": "文本1",
+          "pipeline_override": {
+            "OcrTask": {
+              "text": "文本1"
+            }
+          }
+        },
+        {
+          "name": "文本2",
+          "pipeline_override": {
+            "OcrTask": {
+              "text": "文本2"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

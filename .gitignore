@@ -1,0 +1,16 @@
+# Python虚拟环境
+.venv/
+__pycache__/
+*.pyc
+
+# Maa运行缓存日志
+cache/
+log/
+temp/
+*.log
+*.tmp
+
+# 系统/编辑器文件
+.DS_Store
+Thumbs.db
+.vscode/
