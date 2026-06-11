@@ -1,7 +1,7 @@
 {
   "interface_version": 2,
   "name": "Maapvz2",
-  "label" : "pvz2_早安",
+  "label": "pvz2_早安",
   "version": "1.0.0",
   "icon": ".\\resource\\xyz.ico",
   "github": "https://github.com/Xiao-yu-ze/first",
@@ -9,43 +9,36 @@
   "description": "这是一次伟大尝试。",
   "contact": "QQ群: 无",
   "license": "MIT",
-  "welcome": "首次使用！欢迎使用 MAApvz2!",
+  "welcome": "看到这段话的都是🐖",
   "mirrorchyan_rid": "项目ID",
   "mirrorchyan_multiplatform": false,
-
   "controller": [
     {
       "name": "安卓端",
       "type": "Adb",
-      "display_short_side": 1080 
+      "display_short_side": 1080
     }
   ],
-
-  "resource": [    
+  "resource": [
     {
       "name": "通用",
-      "path": ["./resource"]
+      "path": [
+        "./resource"
+      ]
     }
   ],
-
-
-  "task": [    {
+  "task": [
+    {
       "name": "自动卡双赢",
-      "entry": "双赢",      
+      "entry": "双赢",
       "default_check": false,
-      "description": "执行这个任务的时候,其他任务不要勾选"
-
+      "description": "此功能只能在mumu模拟器使用,因为要通过下拉状态栏来实现双赢,但是雷电模拟器的状态栏就是一坨,所以只能在mumu上使用."
     },
-     
-
     {
       "name": "地宫无尽2",
       "entry": "地宫2",
       "default_check": false,
-      "description": "卡槽要带对,每行都要一个双发了再在选卡界面开脚本,",
-      "option": [
-        "无"
-      ]
+      "description": "卡槽要带对,每行都要一个双发了再在选卡界面开脚本,"
     },
     {
       "name": "参数任务",

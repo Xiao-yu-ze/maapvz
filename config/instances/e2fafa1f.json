@@ -18,7 +18,7 @@
       "name": "自动卡双赢",
       "entry": "双赢",
       "default_check": false,
-      "description": "执行这个任务的时候,其他任务不要勾选"
+      "description": "此功能只能在mumu模拟器使用,因为要通过下拉状态栏来实现双赢,但是雷电模拟器的状态栏就是一坨,所以只能在mumu上使用."
     },
     {
       "name": "地宫无尽2",

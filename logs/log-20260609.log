@@ -2074,3 +2074,882 @@ C:\Users\29374\Desktop\MAAXYZ\resource
 [2026-06-09 16:48:09.199][WRN] [cfg=Default] 公告文件夹不存在：C:\Users\29374\Desktop\MAAXYZ\resource\announcement
 [2026-06-09 16:48:09.200][INF] [cfg=Default] >>> 任务 公告和最新版本检测完成（异步）。
 [2026-06-09 16:48:26.044][INF] [cfg=Default] 应用已关闭
+[2026-06-09 19:33:47.098][INF] 正在加载配置列表...
+[2026-06-09 19:33:47.125][INF] 应用安装目录：C:\Users\29374\Desktop\MAAXYZ
+[2026-06-09 19:33:47.125][INF] 应用数据目录：C:\Users\29374\Desktop\MAAXYZ
+[2026-06-09 19:33:47.125][INF] 是否使用独立数据目录：False
+[2026-06-09 19:33:47.125][INF] 配置目录：C:\Users\29374\Desktop\MAAXYZ\config
+[2026-06-09 19:33:47.125][INF] 是否使用本地配置目录：True
+[2026-06-09 19:33:47.125][INF] 日志目录：C:\Users\29374\Desktop\MAAXYZ\logs
+[2026-06-09 19:33:47.125][INF] 备份文件数量：0
+[2026-06-09 19:33:47.125][INF] 临时目录是否存在：True
+[2026-06-09 19:33:47.125][INF] [cfg=Default] 应用安装目录：C:\Users\29374\Desktop\MAAXYZ
+[2026-06-09 19:33:47.125][INF] [cfg=Default] 应用数据目录：C:\Users\29374\Desktop\MAAXYZ
+[2026-06-09 19:33:47.125][INF] [cfg=Default] 是否使用独立数据目录：False
+[2026-06-09 19:33:47.125][INF] [cfg=Default] 配置目录：C:\Users\29374\Desktop\MAAXYZ\config
+[2026-06-09 19:33:47.125][INF] [cfg=Default] 是否使用本地配置目录：True
+[2026-06-09 19:33:47.125][INF] [cfg=Default] 日志目录：C:\Users\29374\Desktop\MAAXYZ\logs
+[2026-06-09 19:33:47.125][INF] [cfg=Default] 备份文件数量：0
+[2026-06-09 19:33:47.125][INF] [cfg=Default] 临时目录是否存在：True
+[2026-06-09 19:33:47.127][INF] [cfg=Default] 已通过 Windows API 添加 DLL 搜索目录：C:\Users\29374\Desktop\MAAXYZ\libs
+[2026-06-09 19:33:47.128][INF] [cfg=Default] 库解析器初始化完成：libsPath=C:\Users\29374\Desktop\MAAXYZ\libs，目录存在=True
+[2026-06-09 19:33:47.128][INF] [cfg=Default] 检测到 MaaFramework 运行时目录：数量=1，路径=[C:\Users\29374\Desktop\MAAXYZ\runtimes\win-x64\native]
+[2026-06-09 19:33:47.130][INF] [cfg=Default] 启动参数：数量=0，内容=[]
+[2026-06-09 19:33:47.130][INF] [cfg=Default] 程序版本：v2.12.2-beta.1
+[2026-06-09 19:33:47.130][INF] [cfg=Default] .NET 运行时：.NET 10.0.8
+[2026-06-09 19:33:47.832][INF] [cfg=Default] 开始初始化语言管理器。
+[2026-06-09 19:33:48.007][INF] [cfg=Default] 当前配置：Default
+[2026-06-09 19:33:48.067][INF] [cfg=Default] 已恢复系统休眠。
+[2026-06-09 19:33:48.073][INF] [cfg=Default] 热键主进程选举：已成为主进程（创建了新的全局互斥锁）。
+[2026-06-09 19:33:48.074][INF] [cfg=Default] 全局热键服务：作为主进程初始化。
+[2026-06-09 19:33:48.091][INF] [cfg=Default] 热键 IPC 端口文件已保存：文件=C:\Users\29374\AppData\Local\Temp\MFAAvalonia\hotkey_ipc_port.txt
+[2026-06-09 19:33:48.091][INF] [cfg=Default] 热键 IPC 服务端已启动：端口=52718
+[2026-06-09 19:33:48.101][INF] [cfg=Default] [内存管理]释放了2.72 MB（49.0%)
+[2026-06-09 19:33:48.216][WRN] [cfg=Default] 界面资源接口尚未初始化完成。
+[2026-06-09 19:33:48.226][INF] [cfg=Default] [调试] instances 目录中实际存在的实例文件数量：2, ID列表：[default, e2fafa1f]
+[2026-06-09 19:33:48.227][INF] [cfg=Default] [调试] 检测到存在其他实例的 default 实例文件，但其包含真实配置，已保留
+[2026-06-09 19:33:48.306][INF] [cfg=Default] 本地更新包按钮可见性已刷新：来源=config.Debug(string)，原始值=，解析结果=False
+[2026-06-09 19:33:48.306][INF] [cfg=Default] 资源版本：1.0.0
+[2026-06-09 19:33:48.306][INF] [cfg=Default] MaaFramework 版本：v5.10.2
+[2026-06-09 19:33:48.366][INF] [cfg=Default] [懒加载] 已加载当天有定时任务的实例
+[2026-06-09 19:33:48.453][INF] [cfg=Default] 窗口大小已加载：宽度=1445，高度=789
+[2026-06-09 19:33:48.462][INF] [cfg=Default] 窗口位置已加载：X=62，Y=123
+[2026-06-09 19:33:48.786][WRN] [cfg=Default] 跨平台数据解密失败：参数错误。
+[2026-06-09 19:33:48.859][WRN] [cfg=Default] 跨平台数据解密失败：The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+[2026-06-09 19:33:48.916][INF] [cfg=Default] 本地更新包按钮可见性已刷新：来源=config.Debug(string)，原始值=，解析结果=False
+[2026-06-09 19:33:48.916][INF] [cfg=Default] 设置页调试卡片可见性已应用：False
+[2026-06-09 19:33:49.076][INF] [cfg=Default] [调试] instances 目录中实际存在的实例文件数量：2, ID列表：[default, e2fafa1f]
+[2026-06-09 19:33:49.076][INF] [cfg=Default] [调试] 检测到存在其他实例的 default 实例文件，但其包含真实配置，已保留
+[2026-06-09 19:33:49.083][INF] [cfg=Default] [懒加载] 已加载当天有定时任务的实例
+[2026-06-09 19:33:49.542][INF] [cfg=Default] 资源版本：1.0.0
+[2026-06-09 19:33:49.542][INF] [cfg=Default] MaaFramework 版本：v5.10.2
+[2026-06-09 19:33:49.545][INF] [cfg=Default] [懒加载] 所有实例加载完成
+[2026-06-09 19:33:49.550][INF] [cfg=Default] 正在从配置中读取已保存的 ADB 设备，并启用指纹匹配。
+[2026-06-09 19:33:49.551][INF] [cfg=Default] 已保存设备的指纹：雷电模拟器-3-LDPlayer|3|emulator|5560
+[2026-06-09 19:33:49.633][INF] [cfg=Default] 界面初始化开始
+[2026-06-09 19:33:49.699][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeResource] 当前资源变更：resource=, controller=Adb
+[2026-06-09 19:33:49.700][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeResource] 当前资源变更：resource=通用, controller=Adb
+[2026-06-09 19:33:49.703][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeResource] 当前资源变更：resource=, controller=Adb
+[2026-06-09 19:33:49.704][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeResource] 当前资源变更：resource=通用, controller=Adb
+[2026-06-09 19:33:50.017][INF] [cfg=Default] >>> 任务 公告和最新版本检测开始（异步）。
+[2026-06-09 19:33:50.092][INF] [cfg=Default] [懒加载] 所有实例加载完成
+[2026-06-09 19:33:50.319][INF] [cfg=Default] 正在从配置中读取已保存的 ADB 设备，并启用指纹匹配。
+[2026-06-09 19:33:50.319][INF] [cfg=Default] 已保存设备的指纹：雷电模拟器-3-LDPlayer|3|emulator|5560
+[2026-06-09 19:33:50.505][INF] [cfg=Default] 按指纹匹配到的设备数量：0
+[2026-06-09 19:33:50.505][INF] [cfg=Default] 按指纹匹配到的设备数量：0
+[2026-06-09 19:33:50.505][INF] [cfg=Default] 未通过指纹匹配到设备，开始自动检测。
+[2026-06-09 19:33:50.505][INF] [cfg=Default] 未通过指纹匹配到设备，开始自动检测。
+[2026-06-09 19:33:50.505][INF] [cfg=Default] >>> 任务 刷新设备开始。
+[2026-06-09 19:33:50.639][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeDevice] 当前连接目标变更：controller=Adb, resource=通用, device=MuMu安卓设备-MuMuPlayer12 v5（127.0.0.1:16384)
+[2026-06-09 19:33:50.649][INF] [cfg=Default] >>> 任务 刷新设备完成。
+[2026-06-09 19:33:50.682][WRN] [cfg=Default] [懒加载] 预热实例连接目标失败：实例=default，原因=The operation was canceled.
+[2026-06-09 19:33:50.741][INF] [cfg=Default][inst=配置 1/default][src=Monitor][op=MonitorLog] 正在连接至模拟器......
+[2026-06-09 19:33:50.833][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 启动任务开始（异步）。
+[2026-06-09 19:33:50.854][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 正在载入资源
+[2026-06-09 19:33:50.855][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 资源路径：C:\Users\29374\Desktop\MAAXYZ\resource
+[2026-06-09 19:33:50.855][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 资源检测开始（异步）。
+[2026-06-09 19:33:51.026][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 资源检测完成（异步）。
+[2026-06-09 19:33:51.027][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 启用 GPU 推理：成功
+[2026-06-09 19:33:51.028][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] GPU acceleration: Auto
+[2026-06-09 19:33:51.028][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 控制器检测开始（异步）。
+[2026-06-09 19:33:51.028][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 正在加载 MAA 控制器配置...
+[2026-06-09 19:33:51.030][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 触控模式:Default,捕获模式:EmulatorExtras
+[2026-06-09 19:33:51.030][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 设备名称：MuMu安卓设备-MuMuPlayer12 v5
+[2026-06-09 19:33:51.030][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] ADB 路径：D:/MuMuPlayer/nx_main/adb.exe
+[2026-06-09 19:33:51.030][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] ADB 序列号：127.0.0.1:16384
+[2026-06-09 19:33:51.030][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 截图模式：EmulatorExtras
+[2026-06-09 19:33:51.030][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 输入模式：Default
+[2026-06-09 19:33:51.030][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 控制器配置：{"extras":{"mumu":{"enable":true,"index":0,"path":"D:/MuMuPlayer"}}
+[2026-06-09 19:33:51.324][WRN] [cfg=Default] 公告文件夹不存在：C:\Users\29374\Desktop\MAAXYZ\resource\announcement
+[2026-06-09 19:33:51.324][INF] [cfg=Default] >>> 任务 公告和最新版本检测完成（异步）。
+[2026-06-09 19:33:52.249][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 控制器检测完成（异步）。
+[2026-06-09 19:33:53.050][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 已注册内置特殊任务动作。
+[2026-06-09 19:33:53.050][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 未找到自定义目录：C:\Users\29374\Desktop\MAAXYZ\.\resource\custom
+[2026-06-09 19:33:53.050][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 未找到自定义目录：C:\Users\29374\Desktop\MAAXYZ\resource\custom
+[2026-06-09 19:33:53.050][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 连接状态变更：已连接。
+[2026-06-09 19:33:53.051][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] MaaFW 调试模式：False
+[2026-06-09 19:33:55.145][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 启动检测开始（异步）。
+[2026-06-09 19:33:55.146][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 开始执行更新任务：名称=查询CDK
+[2026-06-09 19:33:55.148][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 更新任务完成：名称=查询CDK
+[2026-06-09 19:33:55.148][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 启动检测完成（异步）。
+[2026-06-09 19:33:55.149][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 启动任务完成（异步）。
+[2026-06-09 19:33:55.150][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=StopTask] 停止前状态：SUCCEEDED
+[2026-06-09 19:33:55.151][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=StopTask] >>> 任务 停止maafw任务开始（异步）。
+[2026-06-09 19:33:55.155][INF] [cfg=Default][inst=配置 1/default][src=Monitor][op=MonitorLog] 任务已全部完成！
+(用时 0h 0m 4s)
+[2026-06-09 19:33:58.428][INF] [cfg=Default][inst=配置 1/default][src=UI][op=StartTask] 用户操作：启动任务 | controller=Adb, resource=通用, device=MuMu安卓设备-MuMuPlayer12 v5（127.0.0.1:16384), selectedTasks=1 [地宫无尽2]
+[2026-06-09 19:33:58.437][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 准备执行任务队列：任务数量=1
+[2026-06-09 19:33:58.441][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] [任务管线合并] 任务#1 名称=[地宫无尽2] 入口=[地宫2] 参数=[
+  {}
+]
+[2026-06-09 19:33:58.449][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 启动任务开始（异步）。
+[2026-06-09 19:33:58.450][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 启动附加开始脚本开始（异步）。
+[2026-06-09 19:33:58.451][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 启动附加开始脚本完成（异步）。
+[2026-06-09 19:33:58.458][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 截图测试开始（异步）。
+[2026-06-09 19:33:58.481][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 截图测试完成（异步）。
+[2026-06-09 19:33:58.482][INF] [cfg=Default][inst=配置 1/default][src=Monitor][op=MonitorLog] 截图耗时：10ms(EmulatorExtras)
+[2026-06-09 19:33:58.499][INF] [cfg=Default][inst=配置 1/default][src=Monitor][op=MonitorLog] 开始任务：地宫无尽2
+[2026-06-09 19:33:58.500][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 队列任务开始（异步）。
+[2026-06-09 19:38:14.544][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=StopTask] 停止前状态：NOT_STARTED
+[2026-06-09 19:38:14.558][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=StopTask] >>> 任务 停止maafw任务开始（异步）。
+[2026-06-09 19:38:14.558][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=StopTask] 正在尝试停止任务执行器，第 1 次。
+[2026-06-09 19:38:14.560][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 队列任务完成（异步）。
+[2026-06-09 19:38:14.561][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 启动任务完成（异步）。
+[2026-06-09 19:38:14.562][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=StopTask] 第 1 次停止任务执行器返回：Succeeded，准备重试。
+[2026-06-09 19:38:14.562][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=StopTask] >>> 任务 Action开始。
+[2026-06-09 19:38:14.562][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=StopTask] >>> 任务 Action完成。
+[2026-06-09 19:38:14.563][INF] [cfg=Default][inst=配置 1/default][src=Monitor][op=MonitorLog] 正在停止......
+[2026-06-09 19:38:14.571][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=StopTask] 停止前状态：STOPPING
+[2026-06-09 19:38:14.969][INF] [cfg=Default][inst=配置 1/default][src=Monitor][op=MonitorLog] 已放弃本次任务
+[2026-06-09 19:38:15.835][INF] [cfg=Default] 应用已关闭
+[2026-06-09 20:00:14.176][INF] 正在加载配置列表...
+[2026-06-09 20:00:14.200][INF] 应用安装目录：C:\Users\29374\Desktop\MAAXYZ
+[2026-06-09 20:00:14.200][INF] 应用数据目录：C:\Users\29374\Desktop\MAAXYZ
+[2026-06-09 20:00:14.200][INF] 是否使用独立数据目录：False
+[2026-06-09 20:00:14.200][INF] 配置目录：C:\Users\29374\Desktop\MAAXYZ\config
+[2026-06-09 20:00:14.200][INF] 是否使用本地配置目录：True
+[2026-06-09 20:00:14.200][INF] 日志目录：C:\Users\29374\Desktop\MAAXYZ\logs
+[2026-06-09 20:00:14.200][INF] 备份文件数量：0
+[2026-06-09 20:00:14.200][INF] 临时目录是否存在：True
+[2026-06-09 20:00:14.200][INF] [cfg=Default] 应用安装目录：C:\Users\29374\Desktop\MAAXYZ
+[2026-06-09 20:00:14.200][INF] [cfg=Default] 应用数据目录：C:\Users\29374\Desktop\MAAXYZ
+[2026-06-09 20:00:14.201][INF] [cfg=Default] 是否使用独立数据目录：False
+[2026-06-09 20:00:14.201][INF] [cfg=Default] 配置目录：C:\Users\29374\Desktop\MAAXYZ\config
+[2026-06-09 20:00:14.201][INF] [cfg=Default] 是否使用本地配置目录：True
+[2026-06-09 20:00:14.201][INF] [cfg=Default] 日志目录：C:\Users\29374\Desktop\MAAXYZ\logs
+[2026-06-09 20:00:14.201][INF] [cfg=Default] 备份文件数量：0
+[2026-06-09 20:00:14.201][INF] [cfg=Default] 临时目录是否存在：True
+[2026-06-09 20:00:14.203][INF] [cfg=Default] 已通过 Windows API 添加 DLL 搜索目录：C:\Users\29374\Desktop\MAAXYZ\libs
+[2026-06-09 20:00:14.203][INF] [cfg=Default] 库解析器初始化完成：libsPath=C:\Users\29374\Desktop\MAAXYZ\libs，目录存在=True
+[2026-06-09 20:00:14.204][INF] [cfg=Default] 检测到 MaaFramework 运行时目录：数量=1，路径=[C:\Users\29374\Desktop\MAAXYZ\runtimes\win-x64\native]
+[2026-06-09 20:00:14.206][INF] [cfg=Default] 启动参数：数量=0，内容=[]
+[2026-06-09 20:00:14.206][INF] [cfg=Default] 程序版本：v2.12.2-beta.1
+[2026-06-09 20:00:14.206][INF] [cfg=Default] .NET 运行时：.NET 10.0.8
+[2026-06-09 20:00:14.893][INF] [cfg=Default] 开始初始化语言管理器。
+[2026-06-09 20:00:15.072][INF] [cfg=Default] 当前配置：Default
+[2026-06-09 20:00:15.133][INF] [cfg=Default] 已恢复系统休眠。
+[2026-06-09 20:00:15.140][INF] [cfg=Default] 热键主进程选举：已成为主进程（创建了新的全局互斥锁）。
+[2026-06-09 20:00:15.141][INF] [cfg=Default] 全局热键服务：作为主进程初始化。
+[2026-06-09 20:00:15.158][INF] [cfg=Default] 热键 IPC 端口文件已保存：文件=C:\Users\29374\AppData\Local\Temp\MFAAvalonia\hotkey_ipc_port.txt
+[2026-06-09 20:00:15.158][INF] [cfg=Default] 热键 IPC 服务端已启动：端口=52718
+[2026-06-09 20:00:15.169][INF] [cfg=Default] [内存管理]释放了2.73 MB（49.0%)
+[2026-06-09 20:00:15.294][WRN] [cfg=Default] 界面资源接口尚未初始化完成。
+[2026-06-09 20:00:15.305][INF] [cfg=Default] [调试] instances 目录中实际存在的实例文件数量：2, ID列表：[default, e2fafa1f]
+[2026-06-09 20:00:15.306][INF] [cfg=Default] [调试] 检测到存在其他实例的 default 实例文件，但其包含真实配置，已保留
+[2026-06-09 20:00:15.391][INF] [cfg=Default] 本地更新包按钮可见性已刷新：来源=config.Debug(string)，原始值=，解析结果=False
+[2026-06-09 20:00:15.392][INF] [cfg=Default] 资源版本：1.0.0
+[2026-06-09 20:00:15.392][INF] [cfg=Default] MaaFramework 版本：v5.10.2
+[2026-06-09 20:00:15.457][INF] [cfg=Default] [懒加载] 已加载当天有定时任务的实例
+[2026-06-09 20:00:15.540][INF] [cfg=Default] 窗口大小已加载：宽度=1445，高度=789
+[2026-06-09 20:00:15.550][INF] [cfg=Default] 窗口位置已加载：X=135，Y=206
+[2026-06-09 20:00:15.879][WRN] [cfg=Default] 跨平台数据解密失败：参数错误。
+[2026-06-09 20:00:15.951][WRN] [cfg=Default] 跨平台数据解密失败：The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+[2026-06-09 20:00:16.008][INF] [cfg=Default] 本地更新包按钮可见性已刷新：来源=config.Debug(string)，原始值=，解析结果=False
+[2026-06-09 20:00:16.008][INF] [cfg=Default] 设置页调试卡片可见性已应用：False
+[2026-06-09 20:00:16.173][INF] [cfg=Default] [调试] instances 目录中实际存在的实例文件数量：2, ID列表：[default, e2fafa1f]
+[2026-06-09 20:00:16.173][INF] [cfg=Default] [调试] 检测到存在其他实例的 default 实例文件，但其包含真实配置，已保留
+[2026-06-09 20:00:16.180][INF] [cfg=Default] [懒加载] 已加载当天有定时任务的实例
+[2026-06-09 20:00:16.607][INF] [cfg=Default] 资源版本：1.0.0
+[2026-06-09 20:00:16.607][INF] [cfg=Default] MaaFramework 版本：v5.10.2
+[2026-06-09 20:00:16.610][INF] [cfg=Default] [懒加载] 所有实例加载完成
+[2026-06-09 20:00:16.615][INF] [cfg=Default] 正在从配置中读取已保存的 ADB 设备，并启用指纹匹配。
+[2026-06-09 20:00:16.616][INF] [cfg=Default] 已保存设备的指纹：MuMu安卓设备-MuMuPlayer12 v5|0|127.0.0.1|16384
+[2026-06-09 20:00:16.703][INF] [cfg=Default] 界面初始化开始
+[2026-06-09 20:00:16.774][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeResource] 当前资源变更：resource=, controller=Adb
+[2026-06-09 20:00:16.775][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeResource] 当前资源变更：resource=通用, controller=Adb
+[2026-06-09 20:00:16.778][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeResource] 当前资源变更：resource=, controller=Adb
+[2026-06-09 20:00:16.778][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeResource] 当前资源变更：resource=通用, controller=Adb
+[2026-06-09 20:00:16.782][INF] [cfg=Default] 按指纹匹配到的设备数量：1
+[2026-06-09 20:00:16.783][INF] [cfg=Default] 已通过指纹匹配到设备：名称=MuMu安卓设备-MuMuPlayer12 v5，ADB 序列号=127.0.0.1:16384
+[2026-06-09 20:00:17.092][INF] [cfg=Default] >>> 任务 公告和最新版本检测开始（异步）。
+[2026-06-09 20:00:17.151][INF] [cfg=Default] [懒加载] 所有实例加载完成
+[2026-06-09 20:00:17.334][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeDevice] 当前连接目标变更：controller=Adb, resource=通用, device=MuMu安卓设备-MuMuPlayer12 v5（127.0.0.1:16384)
+[2026-06-09 20:00:17.393][INF] [cfg=Default] >>> 任务 刷新设备开始。
+[2026-06-09 20:00:17.524][INF] [cfg=Default][inst=配置 1/default][src=UI][op=MatchAdbDevice] 当前设备指纹：name=MuMu安卓设备-MuMuPlayer12 v5, serial=127.0.0.1:16384, configLength=68
+[2026-06-09 20:00:17.524][INF] [cfg=Default] 按指纹匹配到的设备数量：1
+[2026-06-09 20:00:17.525][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeDevice] 当前连接目标变更：controller=Adb, resource=通用, device=<none>
+[2026-06-09 20:00:17.525][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeDevice] 当前连接目标变更：controller=Adb, resource=通用, device=MuMu安卓设备-MuMuPlayer12 v5（127.0.0.1:16384)
+[2026-06-09 20:00:17.526][INF] [cfg=Default] >>> 任务 刷新设备完成。
+[2026-06-09 20:00:17.596][INF] [cfg=Default][inst=配置 1/default][src=Monitor][op=MonitorLog] 正在连接至模拟器......
+[2026-06-09 20:00:17.614][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 启动任务开始（异步）。
+[2026-06-09 20:00:17.619][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 正在载入资源
+[2026-06-09 20:00:17.620][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 资源路径：C:\Users\29374\Desktop\MAAXYZ\resource
+[2026-06-09 20:00:17.620][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 资源检测开始（异步）。
+[2026-06-09 20:00:17.815][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 资源检测完成（异步）。
+[2026-06-09 20:00:17.817][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 启用 GPU 推理：成功
+[2026-06-09 20:00:17.817][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] GPU acceleration: Auto
+[2026-06-09 20:00:17.817][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 控制器检测开始（异步）。
+[2026-06-09 20:00:17.818][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 正在加载 MAA 控制器配置...
+[2026-06-09 20:00:17.820][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 触控模式:Default,捕获模式:EmulatorExtras
+[2026-06-09 20:00:17.820][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 设备名称：MuMu安卓设备-MuMuPlayer12 v5
+[2026-06-09 20:00:17.820][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] ADB 路径：D:/MuMuPlayer/nx_main/adb.exe
+[2026-06-09 20:00:17.820][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] ADB 序列号：127.0.0.1:16384
+[2026-06-09 20:00:17.820][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 截图模式：EmulatorExtras
+[2026-06-09 20:00:17.820][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 输入模式：Default
+[2026-06-09 20:00:17.820][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 控制器配置：{"extras":{"mumu":{"enable":true,"index":0,"path":"D:/MuMuPlayer"}}
+[2026-06-09 20:00:18.400][WRN] [cfg=Default] 公告文件夹不存在：C:\Users\29374\Desktop\MAAXYZ\resource\announcement
+[2026-06-09 20:00:18.401][INF] [cfg=Default] >>> 任务 公告和最新版本检测完成（异步）。
+[2026-06-09 20:00:18.635][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 控制器检测完成（异步）。
+[2026-06-09 20:00:19.419][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 已注册内置特殊任务动作。
+[2026-06-09 20:00:19.419][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 未找到自定义目录：C:\Users\29374\Desktop\MAAXYZ\.\resource\custom
+[2026-06-09 20:00:19.419][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 未找到自定义目录：C:\Users\29374\Desktop\MAAXYZ\resource\custom
+[2026-06-09 20:00:19.419][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 连接状态变更：已连接。
+[2026-06-09 20:00:19.420][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] MaaFW 调试模式：False
+[2026-06-09 20:00:21.449][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 启动检测开始（异步）。
+[2026-06-09 20:00:21.450][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 开始执行更新任务：名称=查询CDK
+[2026-06-09 20:00:21.452][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 更新任务完成：名称=查询CDK
+[2026-06-09 20:00:21.453][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 启动检测完成（异步）。
+[2026-06-09 20:00:21.453][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 启动任务完成（异步）。
+[2026-06-09 20:00:21.455][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=StopTask] 停止前状态：SUCCEEDED
+[2026-06-09 20:00:21.457][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=StopTask] >>> 任务 停止maafw任务开始（异步）。
+[2026-06-09 20:00:21.461][INF] [cfg=Default][inst=配置 1/default][src=Monitor][op=MonitorLog] 任务已全部完成！
+(用时 0h 0m 3s)
+[2026-06-09 20:04:03.509][INF] [cfg=Default][inst=配置 1/default][src=UI][op=StartTask] 用户操作：启动任务 | controller=Adb, resource=通用, device=MuMu安卓设备-MuMuPlayer12 v5（127.0.0.1:16384), selectedTasks=1 [地宫无尽2]
+[2026-06-09 20:04:03.522][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 准备执行任务队列：任务数量=1
+[2026-06-09 20:04:03.527][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] [任务管线合并] 任务#1 名称=[地宫无尽2] 入口=[地宫2] 参数=[
+  {}
+]
+[2026-06-09 20:04:03.546][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 启动任务开始（异步）。
+[2026-06-09 20:04:03.549][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 启动附加开始脚本开始（异步）。
+[2026-06-09 20:04:03.550][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 启动附加开始脚本完成（异步）。
+[2026-06-09 20:04:03.560][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 截图测试开始（异步）。
+[2026-06-09 20:04:03.578][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 截图测试完成（异步）。
+[2026-06-09 20:04:03.579][INF] [cfg=Default][inst=配置 1/default][src=Monitor][op=MonitorLog] 截图耗时：7ms(EmulatorExtras)
+[2026-06-09 20:04:03.589][INF] [cfg=Default][inst=配置 1/default][src=Monitor][op=MonitorLog] 开始任务：地宫无尽2
+[2026-06-09 20:04:03.589][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 队列任务开始（异步）。
+[2026-06-09 20:08:05.403][INF] [cfg=Default] [内存管理]释放了8.93 MB（24.9%)
+[2026-06-09 20:09:45.501][INF] [cfg=Default] [内存管理]释放了6.56 MB（20.4%)
+[2026-06-09 20:10:25.545][INF] [cfg=Default] [内存管理]释放了6.96 MB（21.4%)
+[2026-06-09 20:10:45.564][INF] [cfg=Default] [内存管理]释放了3.45 MB（11.9%)
+[2026-06-09 20:11:05.583][INF] [cfg=Default] [内存管理]释放了5.49 MB（17.7%)
+[2026-06-09 20:11:25.605][INF] [cfg=Default] [内存管理]释放了6.75 MB（20.9%)
+[2026-06-09 20:11:45.627][INF] [cfg=Default] [内存管理]释放了5.57 MB（17.9%)
+[2026-06-09 20:12:05.660][INF] [cfg=Default] [内存管理]释放了5.37 MB（17.4%)
+[2026-06-09 20:12:25.681][INF] [cfg=Default] [内存管理]释放了2.14 MB（7.8%)
+[2026-06-09 20:12:45.703][INF] [cfg=Default] [内存管理]释放了2.40 MB（8.6%)
+[2026-06-09 20:13:05.726][INF] [cfg=Default] [内存管理]释放了3.91 MB（13.3%)
+[2026-06-09 20:13:45.773][INF] [cfg=Default] [内存管理]释放了4.60 MB（15.3%)
+[2026-06-09 20:14:05.801][INF] [cfg=Default] [内存管理]释放了4.56 MB（15.2%)
+[2026-06-09 20:14:25.823][INF] [cfg=Default] [内存管理]释放了7.61 MB（22.9%)
+[2026-06-09 20:14:45.841][INF] [cfg=Default] [内存管理]释放了5.85 MB（18.7%)
+[2026-06-09 20:15:35.873][INF] [cfg=Default] [内存管理]释放了1.95 MB（7.1%)
+[2026-06-09 20:15:55.903][INF] [cfg=Default] [内存管理]释放了1.80 MB（6.7%)
+[2026-06-09 20:16:15.927][INF] [cfg=Default] [内存管理]释放了4.10 MB（14.0%)
+[2026-06-09 20:16:35.954][INF] [cfg=Default] [内存管理]释放了1.17 MB（4.5%)
+[2026-06-09 20:16:55.979][INF] [cfg=Default] [内存管理]释放了4.31 MB（14.6%)
+[2026-06-09 20:17:16.002][INF] [cfg=Default] [内存管理]释放了2.37 MB（8.6%)
+[2026-06-09 20:17:36.027][INF] [cfg=Default] [内存管理]释放了5.55 MB（18.0%)
+[2026-06-09 20:17:56.048][INF] [cfg=Default] [内存管理]释放了5.66 MB（18.3%)
+[2026-06-09 20:18:16.070][INF] [cfg=Default] [内存管理]释放了1.95 MB（7.2%)
+[2026-06-09 20:18:36.089][INF] [cfg=Default] [内存管理]释放了4.81 MB（16.0%)
+[2026-06-09 20:18:56.106][INF] [cfg=Default] [内存管理]释放了2.91 MB（10.4%)
+[2026-06-09 20:19:16.132][INF] [cfg=Default] [内存管理]释放了4.60 MB（15.4%)
+[2026-06-09 20:19:36.152][INF] [cfg=Default] [内存管理]释放了5.98 MB（19.1%)
+[2026-06-09 20:19:56.175][INF] [cfg=Default] [内存管理]释放了3.22 MB（11.3%)
+[2026-06-09 20:20:16.198][INF] [cfg=Default] [内存管理]释放了3.56 MB（12.4%)
+[2026-06-09 20:20:56.246][INF] [cfg=Default] [内存管理]释放了5.76 MB（18.6%)
+[2026-06-09 20:21:16.268][INF] [cfg=Default] [内存管理]释放了1.11 MB（4.2%)
+[2026-06-09 20:21:36.289][INF] [cfg=Default] [内存管理]释放了4.92 MB（16.3%)
+[2026-06-09 20:21:56.311][INF] [cfg=Default] [内存管理]释放了8.86 MB（25.9%)
+[2026-06-09 20:22:46.336][INF] [cfg=Default] [内存管理]释放了7.67 MB（23.3%)
+[2026-06-09 20:23:06.367][INF] [cfg=Default] [内存管理]释放了4.77 MB（15.9%)
+[2026-06-09 20:23:26.390][INF] [cfg=Default] [内存管理]释放了7.91 MB（23.8%)
+[2026-06-09 20:23:46.416][INF] [cfg=Default] [内存管理]释放了5.31 MB（17.4%)
+[2026-06-09 20:25:06.530][INF] [cfg=Default] [内存管理]释放了5.18 MB（17.0%)
+[2026-06-09 20:26:09.070][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 队列任务完成（异步）。
+[2026-06-09 20:26:09.084][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 启动附加结束脚本开始（异步）。
+[2026-06-09 20:26:09.085][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 启动附加结束脚本完成（异步）。
+[2026-06-09 20:26:09.086][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 启动任务完成（异步）。
+[2026-06-09 20:26:09.090][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=StopTask] 停止前状态：SUCCEEDED
+[2026-06-09 20:26:09.091][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=StopTask] >>> 任务 停止maafw任务开始（异步）。
+[2026-06-09 20:26:09.092][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=StopTask] >>> 任务 播放音频开始。
+[2026-06-09 20:26:09.332][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=StopTask] >>> 任务 播放音频完成。
+[2026-06-09 20:26:09.334][INF] [cfg=Default][inst=配置 1/default][src=Monitor][op=MonitorLog] 任务已全部完成！
+(用时 0h 22m 5s)
+[2026-06-09 20:26:46.009][INF] [cfg=Default] 应用已关闭
+[2026-06-09 20:33:55.625][INF] 正在加载配置列表...
+[2026-06-09 20:33:55.650][INF] 应用安装目录：C:\Users\29374\Desktop\MAAXYZ
+[2026-06-09 20:33:55.650][INF] 应用数据目录：C:\Users\29374\Desktop\MAAXYZ
+[2026-06-09 20:33:55.650][INF] 是否使用独立数据目录：False
+[2026-06-09 20:33:55.650][INF] 配置目录：C:\Users\29374\Desktop\MAAXYZ\config
+[2026-06-09 20:33:55.650][INF] 是否使用本地配置目录：True
+[2026-06-09 20:33:55.650][INF] 日志目录：C:\Users\29374\Desktop\MAAXYZ\logs
+[2026-06-09 20:33:55.650][INF] 备份文件数量：0
+[2026-06-09 20:33:55.650][INF] 临时目录是否存在：True
+[2026-06-09 20:33:55.650][INF] [cfg=Default] 应用安装目录：C:\Users\29374\Desktop\MAAXYZ
+[2026-06-09 20:33:55.650][INF] [cfg=Default] 应用数据目录：C:\Users\29374\Desktop\MAAXYZ
+[2026-06-09 20:33:55.650][INF] [cfg=Default] 是否使用独立数据目录：False
+[2026-06-09 20:33:55.650][INF] [cfg=Default] 配置目录：C:\Users\29374\Desktop\MAAXYZ\config
+[2026-06-09 20:33:55.650][INF] [cfg=Default] 是否使用本地配置目录：True
+[2026-06-09 20:33:55.650][INF] [cfg=Default] 日志目录：C:\Users\29374\Desktop\MAAXYZ\logs
+[2026-06-09 20:33:55.650][INF] [cfg=Default] 备份文件数量：0
+[2026-06-09 20:33:55.650][INF] [cfg=Default] 临时目录是否存在：True
+[2026-06-09 20:33:55.653][INF] [cfg=Default] 已通过 Windows API 添加 DLL 搜索目录：C:\Users\29374\Desktop\MAAXYZ\libs
+[2026-06-09 20:33:55.653][INF] [cfg=Default] 库解析器初始化完成：libsPath=C:\Users\29374\Desktop\MAAXYZ\libs，目录存在=True
+[2026-06-09 20:33:55.654][INF] [cfg=Default] 检测到 MaaFramework 运行时目录：数量=1，路径=[C:\Users\29374\Desktop\MAAXYZ\runtimes\win-x64\native]
+[2026-06-09 20:33:55.656][INF] [cfg=Default] 启动参数：数量=0，内容=[]
+[2026-06-09 20:33:55.656][INF] [cfg=Default] 程序版本：v2.12.2-beta.1
+[2026-06-09 20:33:55.656][INF] [cfg=Default] .NET 运行时：.NET 10.0.8
+[2026-06-09 20:33:56.320][INF] [cfg=Default] 开始初始化语言管理器。
+[2026-06-09 20:33:56.481][INF] [cfg=Default] 当前配置：Default
+[2026-06-09 20:33:56.549][INF] [cfg=Default] 已恢复系统休眠。
+[2026-06-09 20:33:56.553][INF] [cfg=Default] 热键主进程选举：已成为主进程（创建了新的全局互斥锁）。
+[2026-06-09 20:33:56.553][INF] [cfg=Default] 全局热键服务：作为主进程初始化。
+[2026-06-09 20:33:56.564][INF] [cfg=Default] 热键 IPC 端口文件已保存：文件=C:\Users\29374\AppData\Local\Temp\MFAAvalonia\hotkey_ipc_port.txt
+[2026-06-09 20:33:56.564][INF] [cfg=Default] 热键 IPC 服务端已启动：端口=52718
+[2026-06-09 20:33:56.576][INF] [cfg=Default] [内存管理]释放了2.63 MB（47.3%)
+[2026-06-09 20:33:56.644][WRN] [cfg=Default] 界面资源接口尚未初始化完成。
+[2026-06-09 20:33:56.652][INF] [cfg=Default] [调试] instances 目录中实际存在的实例文件数量：2, ID列表：[default, e2fafa1f]
+[2026-06-09 20:33:56.652][INF] [cfg=Default] [调试] 检测到存在其他实例的 default 实例文件，但其包含真实配置，已保留
+[2026-06-09 20:33:56.714][INF] [cfg=Default] 本地更新包按钮可见性已刷新：来源=config.Debug(string)，原始值=，解析结果=False
+[2026-06-09 20:33:56.715][INF] [cfg=Default] 资源版本：1.0.0
+[2026-06-09 20:33:56.715][INF] [cfg=Default] MaaFramework 版本：v5.10.2
+[2026-06-09 20:33:56.768][INF] [cfg=Default] [懒加载] 已加载当天有定时任务的实例
+[2026-06-09 20:33:56.839][INF] [cfg=Default] 窗口大小已加载：宽度=1445，高度=789
+[2026-06-09 20:33:56.848][INF] [cfg=Default] 窗口位置已加载：X=-9，Y=355
+[2026-06-09 20:33:57.134][WRN] [cfg=Default] 跨平台数据解密失败：参数错误。
+[2026-06-09 20:33:57.189][WRN] [cfg=Default] 跨平台数据解密失败：The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+[2026-06-09 20:33:57.245][INF] [cfg=Default] 本地更新包按钮可见性已刷新：来源=config.Debug(string)，原始值=，解析结果=False
+[2026-06-09 20:33:57.245][INF] [cfg=Default] 设置页调试卡片可见性已应用：False
+[2026-06-09 20:33:57.373][INF] [cfg=Default] [调试] instances 目录中实际存在的实例文件数量：2, ID列表：[default, e2fafa1f]
+[2026-06-09 20:33:57.373][INF] [cfg=Default] [调试] 检测到存在其他实例的 default 实例文件，但其包含真实配置，已保留
+[2026-06-09 20:33:57.380][INF] [cfg=Default] [懒加载] 已加载当天有定时任务的实例
+[2026-06-09 20:33:57.741][INF] [cfg=Default] 资源版本：1.0.0
+[2026-06-09 20:33:57.741][INF] [cfg=Default] MaaFramework 版本：v5.10.2
+[2026-06-09 20:33:57.744][INF] [cfg=Default] [懒加载] 所有实例加载完成
+[2026-06-09 20:33:57.748][INF] [cfg=Default] 正在从配置中读取已保存的 ADB 设备，并启用指纹匹配。
+[2026-06-09 20:33:57.750][INF] [cfg=Default] 已保存设备的指纹：MuMu安卓设备-MuMuPlayer12 v5|0|127.0.0.1|16384
+[2026-06-09 20:33:57.810][INF] [cfg=Default] 界面初始化开始
+[2026-06-09 20:33:57.874][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeResource] 当前资源变更：resource=, controller=Adb
+[2026-06-09 20:33:57.875][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeResource] 当前资源变更：resource=通用, controller=Adb
+[2026-06-09 20:33:57.878][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeResource] 当前资源变更：resource=, controller=Adb
+[2026-06-09 20:33:57.878][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeResource] 当前资源变更：resource=通用, controller=Adb
+[2026-06-09 20:33:58.178][INF] [cfg=Default] >>> 任务 公告和最新版本检测开始（异步）。
+[2026-06-09 20:33:58.244][INF] [cfg=Default] [懒加载] 所有实例加载完成
+[2026-06-09 20:33:58.251][INF] [cfg=Default] 按指纹匹配到的设备数量：1
+[2026-06-09 20:33:58.251][INF] [cfg=Default] 已通过指纹匹配到设备：名称=MuMu安卓设备-MuMuPlayer12 v5，ADB 序列号=127.0.0.1:16384
+[2026-06-09 20:33:58.314][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeDevice] 当前连接目标变更：controller=Adb, resource=通用, device=MuMu安卓设备-MuMuPlayer12 v5（127.0.0.1:16384)
+[2026-06-09 20:33:58.478][INF] [cfg=Default] >>> 任务 刷新设备开始。
+[2026-06-09 20:33:58.600][INF] [cfg=Default][inst=配置 1/default][src=UI][op=MatchAdbDevice] 当前设备指纹：name=MuMu安卓设备-MuMuPlayer12 v5, serial=127.0.0.1:16384, configLength=68
+[2026-06-09 20:33:58.600][INF] [cfg=Default] 按指纹匹配到的设备数量：1
+[2026-06-09 20:33:58.600][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeDevice] 当前连接目标变更：controller=Adb, resource=通用, device=<none>
+[2026-06-09 20:33:58.601][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeDevice] 当前连接目标变更：controller=Adb, resource=通用, device=MuMu安卓设备-MuMuPlayer12 v5（127.0.0.1:16384)
+[2026-06-09 20:33:58.602][INF] [cfg=Default] >>> 任务 刷新设备完成。
+[2026-06-09 20:33:58.651][INF] [cfg=Default][inst=配置 1/default][src=Monitor][op=MonitorLog] 正在连接至模拟器......
+[2026-06-09 20:33:58.671][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 启动任务开始（异步）。
+[2026-06-09 20:33:58.676][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 正在载入资源
+[2026-06-09 20:33:58.676][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 资源路径：C:\Users\29374\Desktop\MAAXYZ\resource
+[2026-06-09 20:33:58.677][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 资源检测开始（异步）。
+[2026-06-09 20:33:58.789][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 资源检测完成（异步）。
+[2026-06-09 20:33:58.790][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 启用 GPU 推理：成功
+[2026-06-09 20:33:58.790][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] GPU acceleration: Auto
+[2026-06-09 20:33:58.790][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 控制器检测开始（异步）。
+[2026-06-09 20:33:58.791][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 正在加载 MAA 控制器配置...
+[2026-06-09 20:33:58.793][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 触控模式:Default,捕获模式:EmulatorExtras
+[2026-06-09 20:33:58.794][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 设备名称：MuMu安卓设备-MuMuPlayer12 v5
+[2026-06-09 20:33:58.794][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] ADB 路径：D:/MuMuPlayer/nx_main/adb.exe
+[2026-06-09 20:33:58.794][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] ADB 序列号：127.0.0.1:16384
+[2026-06-09 20:33:58.794][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 截图模式：EmulatorExtras
+[2026-06-09 20:33:58.794][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 输入模式：Default
+[2026-06-09 20:33:58.794][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 控制器配置：{"extras":{"mumu":{"enable":true,"index":0,"path":"D:/MuMuPlayer"}}
+[2026-06-09 20:33:59.570][INF] [cfg=Default] 公告数量：3
+[2026-06-09 20:33:59.576][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 控制器检测完成（异步）。
+[2026-06-09 20:33:59.703][INF] [cfg=Default] >>> 任务 公告和最新版本检测完成（异步）。
+[2026-06-09 20:34:00.344][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 已注册内置特殊任务动作。
+[2026-06-09 20:34:00.344][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 未找到自定义目录：C:\Users\29374\Desktop\MAAXYZ\.\resource\custom
+[2026-06-09 20:34:00.344][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 未找到自定义目录：C:\Users\29374\Desktop\MAAXYZ\resource\custom
+[2026-06-09 20:34:00.344][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 连接状态变更：已连接。
+[2026-06-09 20:34:00.345][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] MaaFW 调试模式：False
+[2026-06-09 20:34:02.356][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 启动检测开始（异步）。
+[2026-06-09 20:34:02.356][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 开始执行更新任务：名称=查询CDK
+[2026-06-09 20:34:02.358][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 更新任务完成：名称=查询CDK
+[2026-06-09 20:34:02.358][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 启动检测完成（异步）。
+[2026-06-09 20:34:02.359][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 启动任务完成（异步）。
+[2026-06-09 20:34:02.359][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=StopTask] 停止前状态：SUCCEEDED
+[2026-06-09 20:34:02.361][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=StopTask] >>> 任务 停止maafw任务开始（异步）。
+[2026-06-09 20:34:02.365][INF] [cfg=Default][inst=配置 1/default][src=Monitor][op=MonitorLog] 任务已全部完成！
+(用时 0h 0m 3s)
+[2026-06-09 20:39:36.915][INF] [cfg=Default] [内存管理]释放了7.31 MB（20.6%)
+[2026-06-09 20:39:56.931][INF] [cfg=Default] [内存管理]释放了5.10 MB（15.4%)
+[2026-06-09 20:39:57.133][INF] 正在加载配置列表...
+[2026-06-09 20:39:57.159][INF] 应用安装目录：C:\Users\29374\Desktop\MAAXYZ
+[2026-06-09 20:39:57.159][INF] 应用数据目录：C:\Users\29374\Desktop\MAAXYZ
+[2026-06-09 20:39:57.159][INF] 是否使用独立数据目录：False
+[2026-06-09 20:39:57.159][INF] 配置目录：C:\Users\29374\Desktop\MAAXYZ\config
+[2026-06-09 20:39:57.159][INF] 是否使用本地配置目录：True
+[2026-06-09 20:39:57.159][INF] 日志目录：C:\Users\29374\Desktop\MAAXYZ\logs
+[2026-06-09 20:39:57.159][INF] 备份文件数量：0
+[2026-06-09 20:39:57.159][INF] 临时目录是否存在：True
+[2026-06-09 20:39:57.159][INF] [cfg=Default] 应用安装目录：C:\Users\29374\Desktop\MAAXYZ
+[2026-06-09 20:39:57.159][INF] [cfg=Default] 应用数据目录：C:\Users\29374\Desktop\MAAXYZ
+[2026-06-09 20:39:57.159][INF] [cfg=Default] 是否使用独立数据目录：False
+[2026-06-09 20:39:57.159][INF] [cfg=Default] 配置目录：C:\Users\29374\Desktop\MAAXYZ\config
+[2026-06-09 20:39:57.159][INF] [cfg=Default] 是否使用本地配置目录：True
+[2026-06-09 20:39:57.159][INF] [cfg=Default] 日志目录：C:\Users\29374\Desktop\MAAXYZ\logs
+[2026-06-09 20:39:57.159][INF] [cfg=Default] 备份文件数量：0
+[2026-06-09 20:39:57.159][INF] [cfg=Default] 临时目录是否存在：True
+[2026-06-09 20:39:57.161][INF] [cfg=Default] 已通过 Windows API 添加 DLL 搜索目录：C:\Users\29374\Desktop\MAAXYZ\libs
+[2026-06-09 20:39:57.162][INF] [cfg=Default] 库解析器初始化完成：libsPath=C:\Users\29374\Desktop\MAAXYZ\libs，目录存在=True
+[2026-06-09 20:39:57.162][INF] [cfg=Default] 检测到 MaaFramework 运行时目录：数量=1，路径=[C:\Users\29374\Desktop\MAAXYZ\runtimes\win-x64\native]
+[2026-06-09 20:39:57.164][INF] [cfg=Default] 启动参数：数量=0，内容=[]
+[2026-06-09 20:39:57.164][INF] [cfg=Default] 程序版本：v2.12.2-beta.1
+[2026-06-09 20:39:57.164][INF] [cfg=Default] .NET 运行时：.NET 10.0.8
+[2026-06-09 20:39:57.845][INF] [cfg=Default] 开始初始化语言管理器。
+[2026-06-09 20:39:58.020][INF] [cfg=Default] 当前配置：Default
+[2026-06-09 20:39:58.079][INF] [cfg=Default] 已恢复系统休眠。
+[2026-06-09 20:39:58.082][INF] [cfg=Default] 热键主进程选举：已有其他实例持有互斥锁，当前实例不作为主进程。
+[2026-06-09 20:39:58.083][INF] [cfg=Default] 全局热键服务：作为子进程初始化。
+[2026-06-09 20:39:58.084][INF] [cfg=Default] 全局热键服务：开始连接主进程。
+[2026-06-09 20:39:58.084][INF] [cfg=Default] 全局热键服务：连接尝试 1/10。
+[2026-06-09 20:39:58.090][INF] [cfg=Default] 热键 IPC 客户端读取端口文件结果：端口=52718
+[2026-06-09 20:39:58.090][INF] [cfg=Default] 热键 IPC 客户端准备连接端口文件中的端口：端口=52718
+[2026-06-09 20:39:58.092][INF] [cfg=Default] 热键 IPC 客户端尝试连接端口：端口=52718
+[2026-06-09 20:39:58.106][INF] [cfg=Default] 热键 IPC 客户端 TCP 连接成功：端口=52718
+[2026-06-09 20:39:58.108][INF] [cfg=Default] [内存管理]释放了2.55 MB（45.9%)
+[2026-06-09 20:39:58.108][INF] [cfg=Default] 热键 IPC 客户端已发送连接请求。
+[2026-06-09 20:39:58.146][INF] [cfg=Default] 热键 IPC 客户端正在等待连接确认。
+[2026-06-09 20:39:58.163][WRN] [cfg=Default] 界面资源接口尚未初始化完成。
+[2026-06-09 20:39:58.172][INF] [cfg=Default] [调试] instances 目录中实际存在的实例文件数量：2, ID列表：[default, e2fafa1f]
+[2026-06-09 20:39:58.173][INF] [cfg=Default] [调试] 检测到存在其他实例的 default 实例文件，但其包含真实配置，已保留
+[2026-06-09 20:39:58.204][INF] [cfg=Default] 热键 IPC 客户端已连接：客户端ID=26832_5169452923d6412db1de1bc3d5a21961
+[2026-06-09 20:39:58.205][INF] [cfg=Default] 热键 IPC 客户端收到响应：内容={"type":7,"senderId":37504,"timestamp":1781008798200,"sequenceNumber":1}
+[2026-06-09 20:39:58.208][INF] [cfg=Default] 热键 IPC 客户端已连接到主进程：端口=52718，客户端ID=26832_5169452923d6412db1de1bc3d5a21961
+[2026-06-09 20:39:58.209][INF] [cfg=Default] 热键 IPC 客户端端口文件连接结果：端口=52718，成功=True
+[2026-06-09 20:39:58.210][INF] [cfg=Default] 全局热键服务：已连接到主进程，准备注册 0 个热键。
+[2026-06-09 20:39:58.230][INF] [cfg=Default] 本地更新包按钮可见性已刷新：来源=config.Debug(string)，原始值=，解析结果=False
+[2026-06-09 20:39:58.230][INF] [cfg=Default] 资源版本：1.0.0
+[2026-06-09 20:39:58.230][INF] [cfg=Default] MaaFramework 版本：v5.10.2
+[2026-06-09 20:39:58.287][INF] [cfg=Default] [懒加载] 已加载当天有定时任务的实例
+[2026-06-09 20:39:58.360][INF] [cfg=Default] 窗口大小已加载：宽度=1445，高度=789
+[2026-06-09 20:39:58.369][INF] [cfg=Default] 窗口位置已加载：X=-9，Y=355
+[2026-06-09 20:39:58.676][WRN] [cfg=Default] 跨平台数据解密失败：参数错误。
+[2026-06-09 20:39:58.737][WRN] [cfg=Default] 跨平台数据解密失败：The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+[2026-06-09 20:39:58.800][INF] [cfg=Default] 本地更新包按钮可见性已刷新：来源=config.Debug(string)，原始值=，解析结果=False
+[2026-06-09 20:39:58.801][INF] [cfg=Default] 设置页调试卡片可见性已应用：False
+[2026-06-09 20:39:59.304][INF] [cfg=Default] 资源版本：1.0.0
+[2026-06-09 20:39:59.304][INF] [cfg=Default] MaaFramework 版本：v5.10.2
+[2026-06-09 20:39:59.313][INF] [cfg=Default] 正在从配置中读取已保存的 ADB 设备，并启用指纹匹配。
+[2026-06-09 20:39:59.314][INF] [cfg=Default] 已保存设备的指纹：MuMu安卓设备-MuMuPlayer12 v5|0|127.0.0.1|16384
+[2026-06-09 20:39:59.378][INF] [cfg=Default] 界面初始化开始
+[2026-06-09 20:39:59.453][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeResource] 当前资源变更：resource=, controller=Adb
+[2026-06-09 20:39:59.454][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeResource] 当前资源变更：resource=通用, controller=Adb
+[2026-06-09 20:39:59.457][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeResource] 当前资源变更：resource=, controller=Adb
+[2026-06-09 20:39:59.458][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeResource] 当前资源变更：resource=通用, controller=Adb
+[2026-06-09 20:39:59.460][INF] [cfg=Default] 按指纹匹配到的设备数量：1
+[2026-06-09 20:39:59.461][INF] [cfg=Default] 已通过指纹匹配到设备：名称=MuMu安卓设备-MuMuPlayer12 v5，ADB 序列号=127.0.0.1:16384
+[2026-06-09 20:39:59.838][INF] [cfg=Default] [懒加载] 所有实例加载完成
+[2026-06-09 20:39:59.918][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeDevice] 当前连接目标变更：controller=Adb, resource=通用, device=MuMu安卓设备-MuMuPlayer12 v5（127.0.0.1:16384)
+[2026-06-09 20:40:02.739][INF] [cfg=Default] 应用已关闭
+[2026-06-09 20:40:06.614][INF] [cfg=Default] 应用已关闭
+[2026-06-09 20:40:12.051][INF] 正在加载配置列表...
+[2026-06-09 20:40:12.078][INF] 应用安装目录：C:\Users\29374\Desktop\MAAXYZ
+[2026-06-09 20:40:12.078][INF] 应用数据目录：C:\Users\29374\Desktop\MAAXYZ
+[2026-06-09 20:40:12.078][INF] 是否使用独立数据目录：False
+[2026-06-09 20:40:12.078][INF] 配置目录：C:\Users\29374\Desktop\MAAXYZ\config
+[2026-06-09 20:40:12.078][INF] 是否使用本地配置目录：True
+[2026-06-09 20:40:12.078][INF] 日志目录：C:\Users\29374\Desktop\MAAXYZ\logs
+[2026-06-09 20:40:12.078][INF] 备份文件数量：0
+[2026-06-09 20:40:12.078][INF] 临时目录是否存在：True
+[2026-06-09 20:40:12.078][INF] [cfg=Default] 应用安装目录：C:\Users\29374\Desktop\MAAXYZ
+[2026-06-09 20:40:12.078][INF] [cfg=Default] 应用数据目录：C:\Users\29374\Desktop\MAAXYZ
+[2026-06-09 20:40:12.078][INF] [cfg=Default] 是否使用独立数据目录：False
+[2026-06-09 20:40:12.078][INF] [cfg=Default] 配置目录：C:\Users\29374\Desktop\MAAXYZ\config
+[2026-06-09 20:40:12.078][INF] [cfg=Default] 是否使用本地配置目录：True
+[2026-06-09 20:40:12.078][INF] [cfg=Default] 日志目录：C:\Users\29374\Desktop\MAAXYZ\logs
+[2026-06-09 20:40:12.078][INF] [cfg=Default] 备份文件数量：0
+[2026-06-09 20:40:12.078][INF] [cfg=Default] 临时目录是否存在：True
+[2026-06-09 20:40:12.081][INF] [cfg=Default] 已通过 Windows API 添加 DLL 搜索目录：C:\Users\29374\Desktop\MAAXYZ\libs
+[2026-06-09 20:40:12.081][INF] [cfg=Default] 库解析器初始化完成：libsPath=C:\Users\29374\Desktop\MAAXYZ\libs，目录存在=True
+[2026-06-09 20:40:12.081][INF] [cfg=Default] 检测到 MaaFramework 运行时目录：数量=1，路径=[C:\Users\29374\Desktop\MAAXYZ\runtimes\win-x64\native]
+[2026-06-09 20:40:12.083][INF] [cfg=Default] 启动参数：数量=0，内容=[]
+[2026-06-09 20:40:12.083][INF] [cfg=Default] 程序版本：v2.12.2-beta.1
+[2026-06-09 20:40:12.083][INF] [cfg=Default] .NET 运行时：.NET 10.0.8
+[2026-06-09 20:40:12.789][INF] [cfg=Default] 开始初始化语言管理器。
+[2026-06-09 20:40:12.948][INF] [cfg=Default] 当前配置：Default
+[2026-06-09 20:40:13.004][INF] [cfg=Default] 已恢复系统休眠。
+[2026-06-09 20:40:13.007][INF] [cfg=Default] 热键主进程选举：已成为主进程（创建了新的全局互斥锁）。
+[2026-06-09 20:40:13.008][INF] [cfg=Default] 全局热键服务：作为主进程初始化。
+[2026-06-09 20:40:13.017][INF] [cfg=Default] 热键 IPC 端口文件已保存：文件=C:\Users\29374\AppData\Local\Temp\MFAAvalonia\hotkey_ipc_port.txt
+[2026-06-09 20:40:13.017][INF] [cfg=Default] 热键 IPC 服务端已启动：端口=52718
+[2026-06-09 20:40:13.031][INF] [cfg=Default] [内存管理]释放了2.70 MB（48.7%)
+[2026-06-09 20:40:13.086][WRN] [cfg=Default] 界面资源接口尚未初始化完成。
+[2026-06-09 20:40:13.095][INF] [cfg=Default] [调试] instances 目录中实际存在的实例文件数量：2, ID列表：[default, e2fafa1f]
+[2026-06-09 20:40:13.096][INF] [cfg=Default] [调试] 检测到存在其他实例的 default 实例文件，但其包含真实配置，已保留
+[2026-06-09 20:40:13.159][INF] [cfg=Default] 本地更新包按钮可见性已刷新：来源=config.Debug(string)，原始值=，解析结果=False
+[2026-06-09 20:40:13.160][INF] [cfg=Default] 资源版本：1.0.0
+[2026-06-09 20:40:13.160][INF] [cfg=Default] MaaFramework 版本：v5.10.2
+[2026-06-09 20:40:13.214][INF] [cfg=Default] [懒加载] 已加载当天有定时任务的实例
+[2026-06-09 20:40:13.288][INF] [cfg=Default] 窗口大小已加载：宽度=1445，高度=789
+[2026-06-09 20:40:13.298][INF] [cfg=Default] 窗口位置已加载：X=199，Y=189
+[2026-06-09 20:40:13.589][WRN] [cfg=Default] 跨平台数据解密失败：参数错误。
+[2026-06-09 20:40:13.642][WRN] [cfg=Default] 跨平台数据解密失败：The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+[2026-06-09 20:40:13.698][INF] [cfg=Default] 本地更新包按钮可见性已刷新：来源=config.Debug(string)，原始值=，解析结果=False
+[2026-06-09 20:40:13.698][INF] [cfg=Default] 设置页调试卡片可见性已应用：False
+[2026-06-09 20:40:13.832][INF] [cfg=Default] [调试] instances 目录中实际存在的实例文件数量：2, ID列表：[default, e2fafa1f]
+[2026-06-09 20:40:13.832][INF] [cfg=Default] [调试] 检测到存在其他实例的 default 实例文件，但其包含真实配置，已保留
+[2026-06-09 20:40:13.840][INF] [cfg=Default] [懒加载] 已加载当天有定时任务的实例
+[2026-06-09 20:40:14.193][INF] [cfg=Default] 资源版本：1.0.0
+[2026-06-09 20:40:14.193][INF] [cfg=Default] MaaFramework 版本：v5.10.2
+[2026-06-09 20:40:14.195][INF] [cfg=Default] [懒加载] 所有实例加载完成
+[2026-06-09 20:40:14.200][INF] [cfg=Default] 正在从配置中读取已保存的 ADB 设备，并启用指纹匹配。
+[2026-06-09 20:40:14.201][INF] [cfg=Default] 已保存设备的指纹：MuMu安卓设备-MuMuPlayer12 v5|0|127.0.0.1|16384
+[2026-06-09 20:40:14.261][INF] [cfg=Default] 界面初始化开始
+[2026-06-09 20:40:14.335][INF] [cfg=Default] 按指纹匹配到的设备数量：1
+[2026-06-09 20:40:14.336][INF] [cfg=Default] 已通过指纹匹配到设备：名称=MuMu安卓设备-MuMuPlayer12 v5，ADB 序列号=127.0.0.1:16384
+[2026-06-09 20:40:14.338][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeResource] 当前资源变更：resource=, controller=Adb
+[2026-06-09 20:40:14.340][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeResource] 当前资源变更：resource=通用, controller=Adb
+[2026-06-09 20:40:14.343][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeResource] 当前资源变更：resource=, controller=Adb
+[2026-06-09 20:40:14.344][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeResource] 当前资源变更：resource=通用, controller=Adb
+[2026-06-09 20:40:14.640][INF] [cfg=Default] >>> 任务 公告和最新版本检测开始（异步）。
+[2026-06-09 20:40:14.706][INF] [cfg=Default] [懒加载] 所有实例加载完成
+[2026-06-09 20:40:14.790][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeDevice] 当前连接目标变更：controller=Adb, resource=通用, device=MuMu安卓设备-MuMuPlayer12 v5（127.0.0.1:16384)
+[2026-06-09 20:40:14.941][INF] [cfg=Default] >>> 任务 刷新设备开始。
+[2026-06-09 20:40:15.062][INF] [cfg=Default][inst=配置 1/default][src=UI][op=MatchAdbDevice] 当前设备指纹：name=MuMu安卓设备-MuMuPlayer12 v5, serial=127.0.0.1:16384, configLength=68
+[2026-06-09 20:40:15.063][INF] [cfg=Default] 按指纹匹配到的设备数量：1
+[2026-06-09 20:40:15.063][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeDevice] 当前连接目标变更：controller=Adb, resource=通用, device=<none>
+[2026-06-09 20:40:15.064][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeDevice] 当前连接目标变更：controller=Adb, resource=通用, device=MuMu安卓设备-MuMuPlayer12 v5（127.0.0.1:16384)
+[2026-06-09 20:40:15.065][INF] [cfg=Default] >>> 任务 刷新设备完成。
+[2026-06-09 20:40:15.115][INF] [cfg=Default][inst=配置 1/default][src=Monitor][op=MonitorLog] 正在连接至模拟器......
+[2026-06-09 20:40:15.128][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 启动任务开始（异步）。
+[2026-06-09 20:40:15.133][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 正在载入资源
+[2026-06-09 20:40:15.133][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 资源路径：C:\Users\29374\Desktop\MAAXYZ\resource
+[2026-06-09 20:40:15.133][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 资源检测开始（异步）。
+[2026-06-09 20:40:15.226][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 资源检测完成（异步）。
+[2026-06-09 20:40:15.228][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 启用 GPU 推理：成功
+[2026-06-09 20:40:15.228][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] GPU acceleration: Auto
+[2026-06-09 20:40:15.228][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 控制器检测开始（异步）。
+[2026-06-09 20:40:15.229][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 正在加载 MAA 控制器配置...
+[2026-06-09 20:40:15.230][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 触控模式:Default,捕获模式:EmulatorExtras
+[2026-06-09 20:40:15.230][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 设备名称：MuMu安卓设备-MuMuPlayer12 v5
+[2026-06-09 20:40:15.230][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] ADB 路径：D:/MuMuPlayer/nx_main/adb.exe
+[2026-06-09 20:40:15.230][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] ADB 序列号：127.0.0.1:16384
+[2026-06-09 20:40:15.230][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 截图模式：EmulatorExtras
+[2026-06-09 20:40:15.230][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 输入模式：Default
+[2026-06-09 20:40:15.231][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 控制器配置：{"extras":{"mumu":{"enable":true,"index":0,"path":"D:/MuMuPlayer"}}
+[2026-06-09 20:40:15.741][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 控制器检测完成（异步）。
+[2026-06-09 20:40:16.011][INF] [cfg=Default] 公告数量：3
+[2026-06-09 20:40:16.118][INF] [cfg=Default] >>> 任务 公告和最新版本检测完成（异步）。
+[2026-06-09 20:40:16.511][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 已注册内置特殊任务动作。
+[2026-06-09 20:40:16.511][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 未找到自定义目录：C:\Users\29374\Desktop\MAAXYZ\.\resource\custom
+[2026-06-09 20:40:16.511][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 未找到自定义目录：C:\Users\29374\Desktop\MAAXYZ\resource\custom
+[2026-06-09 20:40:16.511][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 连接状态变更：已连接。
+[2026-06-09 20:40:16.513][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] MaaFW 调试模式：False
+[2026-06-09 20:40:18.406][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 启动检测开始（异步）。
+[2026-06-09 20:40:18.407][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 开始执行更新任务：名称=查询CDK
+[2026-06-09 20:40:18.408][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 更新任务完成：名称=查询CDK
+[2026-06-09 20:40:18.409][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 启动检测完成（异步）。
+[2026-06-09 20:40:18.410][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 启动任务完成（异步）。
+[2026-06-09 20:40:18.412][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=StopTask] 停止前状态：SUCCEEDED
+[2026-06-09 20:40:18.415][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=StopTask] >>> 任务 停止maafw任务开始（异步）。
+[2026-06-09 20:40:18.423][INF] [cfg=Default][inst=配置 1/default][src=Monitor][op=MonitorLog] 任务已全部完成！
+(用时 0h 0m 3s)
+[2026-06-09 20:40:57.381][INF] [cfg=Default] 应用已关闭
+[2026-06-09 20:41:49.976][INF] 正在加载配置列表...
+[2026-06-09 20:41:50.001][INF] 应用安装目录：C:\Users\29374\Desktop\MAAXYZ
+[2026-06-09 20:41:50.001][INF] 应用数据目录：C:\Users\29374\Desktop\MAAXYZ
+[2026-06-09 20:41:50.001][INF] 是否使用独立数据目录：False
+[2026-06-09 20:41:50.001][INF] 配置目录：C:\Users\29374\Desktop\MAAXYZ\config
+[2026-06-09 20:41:50.001][INF] 是否使用本地配置目录：True
+[2026-06-09 20:41:50.001][INF] 日志目录：C:\Users\29374\Desktop\MAAXYZ\logs
+[2026-06-09 20:41:50.001][INF] 备份文件数量：0
+[2026-06-09 20:41:50.001][INF] 临时目录是否存在：True
+[2026-06-09 20:41:50.001][INF] [cfg=Default] 应用安装目录：C:\Users\29374\Desktop\MAAXYZ
+[2026-06-09 20:41:50.001][INF] [cfg=Default] 应用数据目录：C:\Users\29374\Desktop\MAAXYZ
+[2026-06-09 20:41:50.001][INF] [cfg=Default] 是否使用独立数据目录：False
+[2026-06-09 20:41:50.001][INF] [cfg=Default] 配置目录：C:\Users\29374\Desktop\MAAXYZ\config
+[2026-06-09 20:41:50.002][INF] [cfg=Default] 是否使用本地配置目录：True
+[2026-06-09 20:41:50.002][INF] [cfg=Default] 日志目录：C:\Users\29374\Desktop\MAAXYZ\logs
+[2026-06-09 20:41:50.002][INF] [cfg=Default] 备份文件数量：0
+[2026-06-09 20:41:50.002][INF] [cfg=Default] 临时目录是否存在：True
+[2026-06-09 20:41:50.004][INF] [cfg=Default] 已通过 Windows API 添加 DLL 搜索目录：C:\Users\29374\Desktop\MAAXYZ\libs
+[2026-06-09 20:41:50.005][INF] [cfg=Default] 库解析器初始化完成：libsPath=C:\Users\29374\Desktop\MAAXYZ\libs，目录存在=True
+[2026-06-09 20:41:50.005][INF] [cfg=Default] 检测到 MaaFramework 运行时目录：数量=1，路径=[C:\Users\29374\Desktop\MAAXYZ\runtimes\win-x64\native]
+[2026-06-09 20:41:50.007][INF] [cfg=Default] 启动参数：数量=0，内容=[]
+[2026-06-09 20:41:50.007][INF] [cfg=Default] 程序版本：v2.12.2-beta.1
+[2026-06-09 20:41:50.007][INF] [cfg=Default] .NET 运行时：.NET 10.0.8
+[2026-06-09 20:41:50.674][INF] [cfg=Default] 开始初始化语言管理器。
+[2026-06-09 20:41:50.839][INF] [cfg=Default] 当前配置：Default
+[2026-06-09 20:41:50.899][INF] [cfg=Default] 已恢复系统休眠。
+[2026-06-09 20:41:50.902][INF] [cfg=Default] 热键主进程选举：已成为主进程（创建了新的全局互斥锁）。
+[2026-06-09 20:41:50.903][INF] [cfg=Default] 全局热键服务：作为主进程初始化。
+[2026-06-09 20:41:50.913][INF] [cfg=Default] 热键 IPC 端口文件已保存：文件=C:\Users\29374\AppData\Local\Temp\MFAAvalonia\hotkey_ipc_port.txt
+[2026-06-09 20:41:50.913][INF] [cfg=Default] 热键 IPC 服务端已启动：端口=52718
+[2026-06-09 20:41:50.927][INF] [cfg=Default] [内存管理]释放了2.72 MB（49.0%)
+[2026-06-09 20:41:50.983][WRN] [cfg=Default] 界面资源接口尚未初始化完成。
+[2026-06-09 20:41:50.992][INF] [cfg=Default] [调试] instances 目录中实际存在的实例文件数量：2, ID列表：[default, e2fafa1f]
+[2026-06-09 20:41:50.992][INF] [cfg=Default] [调试] 检测到存在其他实例的 default 实例文件，但其包含真实配置，已保留
+[2026-06-09 20:41:51.054][INF] [cfg=Default] 本地更新包按钮可见性已刷新：来源=config.Debug(string)，原始值=，解析结果=False
+[2026-06-09 20:41:51.055][INF] [cfg=Default] 资源版本：1.0.0
+[2026-06-09 20:41:51.055][INF] [cfg=Default] MaaFramework 版本：v5.10.2
+[2026-06-09 20:41:51.108][INF] [cfg=Default] [懒加载] 已加载当天有定时任务的实例
+[2026-06-09 20:41:51.179][INF] [cfg=Default] 窗口大小已加载：宽度=1445，高度=789
+[2026-06-09 20:41:51.188][INF] [cfg=Default] 窗口位置已加载：X=199，Y=189
+[2026-06-09 20:41:51.479][WRN] [cfg=Default] 跨平台数据解密失败：参数错误。
+[2026-06-09 20:41:51.533][WRN] [cfg=Default] 跨平台数据解密失败：The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+[2026-06-09 20:41:51.589][INF] [cfg=Default] 本地更新包按钮可见性已刷新：来源=config.Debug(string)，原始值=，解析结果=False
+[2026-06-09 20:41:51.589][INF] [cfg=Default] 设置页调试卡片可见性已应用：False
+[2026-06-09 20:41:51.726][INF] [cfg=Default] [调试] instances 目录中实际存在的实例文件数量：2, ID列表：[default, e2fafa1f]
+[2026-06-09 20:41:51.727][INF] [cfg=Default] [调试] 检测到存在其他实例的 default 实例文件，但其包含真实配置，已保留
+[2026-06-09 20:41:51.734][INF] [cfg=Default] [懒加载] 已加载当天有定时任务的实例
+[2026-06-09 20:41:52.099][INF] [cfg=Default] 资源版本：1.0.0
+[2026-06-09 20:41:52.099][INF] [cfg=Default] MaaFramework 版本：v5.10.2
+[2026-06-09 20:41:52.102][INF] [cfg=Default] [懒加载] 所有实例加载完成
+[2026-06-09 20:41:52.106][INF] [cfg=Default] 正在从配置中读取已保存的 ADB 设备，并启用指纹匹配。
+[2026-06-09 20:41:52.108][INF] [cfg=Default] 已保存设备的指纹：MuMu安卓设备-MuMuPlayer12 v5|0|127.0.0.1|16384
+[2026-06-09 20:41:52.166][INF] [cfg=Default] 界面初始化开始
+[2026-06-09 20:41:52.238][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeResource] 当前资源变更：resource=, controller=Adb
+[2026-06-09 20:41:52.239][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeResource] 当前资源变更：resource=通用, controller=Adb
+[2026-06-09 20:41:52.242][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeResource] 当前资源变更：resource=, controller=Adb
+[2026-06-09 20:41:52.243][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeResource] 当前资源变更：resource=通用, controller=Adb
+[2026-06-09 20:41:52.251][INF] [cfg=Default] 按指纹匹配到的设备数量：1
+[2026-06-09 20:41:52.252][INF] [cfg=Default] 已通过指纹匹配到设备：名称=MuMu安卓设备-MuMuPlayer12 v5，ADB 序列号=127.0.0.1:16384
+[2026-06-09 20:41:52.542][INF] [cfg=Default] >>> 任务 公告和最新版本检测开始（异步）。
+[2026-06-09 20:41:52.601][INF] [cfg=Default] [懒加载] 所有实例加载完成
+[2026-06-09 20:41:52.673][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeDevice] 当前连接目标变更：controller=Adb, resource=通用, device=MuMu安卓设备-MuMuPlayer12 v5（127.0.0.1:16384)
+[2026-06-09 20:41:52.843][INF] [cfg=Default] >>> 任务 刷新设备开始。
+[2026-06-09 20:41:52.961][INF] [cfg=Default][inst=配置 1/default][src=UI][op=MatchAdbDevice] 当前设备指纹：name=MuMu安卓设备-MuMuPlayer12 v5, serial=127.0.0.1:16384, configLength=68
+[2026-06-09 20:41:52.961][INF] [cfg=Default] 按指纹匹配到的设备数量：1
+[2026-06-09 20:41:52.962][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeDevice] 当前连接目标变更：controller=Adb, resource=通用, device=<none>
+[2026-06-09 20:41:52.963][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeDevice] 当前连接目标变更：controller=Adb, resource=通用, device=MuMu安卓设备-MuMuPlayer12 v5（127.0.0.1:16384)
+[2026-06-09 20:41:52.964][INF] [cfg=Default] >>> 任务 刷新设备完成。
+[2026-06-09 20:41:53.024][INF] [cfg=Default][inst=配置 1/default][src=Monitor][op=MonitorLog] 正在连接至模拟器......
+[2026-06-09 20:41:53.042][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 启动任务开始（异步）。
+[2026-06-09 20:41:53.048][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 正在载入资源
+[2026-06-09 20:41:53.048][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 资源路径：C:\Users\29374\Desktop\MAAXYZ\resource
+[2026-06-09 20:41:53.048][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 资源检测开始（异步）。
+[2026-06-09 20:41:53.141][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 资源检测完成（异步）。
+[2026-06-09 20:41:53.142][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 启用 GPU 推理：成功
+[2026-06-09 20:41:53.142][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] GPU acceleration: Auto
+[2026-06-09 20:41:53.142][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 控制器检测开始（异步）。
+[2026-06-09 20:41:53.144][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 正在加载 MAA 控制器配置...
+[2026-06-09 20:41:53.145][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 触控模式:Default,捕获模式:EmulatorExtras
+[2026-06-09 20:41:53.146][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 设备名称：MuMu安卓设备-MuMuPlayer12 v5
+[2026-06-09 20:41:53.146][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] ADB 路径：D:/MuMuPlayer/nx_main/adb.exe
+[2026-06-09 20:41:53.146][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] ADB 序列号：127.0.0.1:16384
+[2026-06-09 20:41:53.146][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 截图模式：EmulatorExtras
+[2026-06-09 20:41:53.146][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 输入模式：Default
+[2026-06-09 20:41:53.146][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 控制器配置：{"extras":{"mumu":{"enable":true,"index":0,"path":"D:/MuMuPlayer"}}
+[2026-06-09 20:41:53.647][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 控制器检测完成（异步）。
+[2026-06-09 20:41:53.956][INF] [cfg=Default] 公告数量：3
+[2026-06-09 20:41:54.033][INF] [cfg=Default] >>> 任务 公告和最新版本检测完成（异步）。
+[2026-06-09 20:41:54.418][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 已注册内置特殊任务动作。
+[2026-06-09 20:41:54.418][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 未找到自定义目录：C:\Users\29374\Desktop\MAAXYZ\.\resource\custom
+[2026-06-09 20:41:54.418][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 未找到自定义目录：C:\Users\29374\Desktop\MAAXYZ\resource\custom
+[2026-06-09 20:41:54.419][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 连接状态变更：已连接。
+[2026-06-09 20:41:54.420][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] MaaFW 调试模式：False
+[2026-06-09 20:41:56.358][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 启动检测开始（异步）。
+[2026-06-09 20:41:56.359][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 开始执行更新任务：名称=查询CDK
+[2026-06-09 20:41:56.361][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 更新任务完成：名称=查询CDK
+[2026-06-09 20:41:56.361][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 启动检测完成（异步）。
+[2026-06-09 20:41:56.361][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 启动任务完成（异步）。
+[2026-06-09 20:41:56.363][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=StopTask] 停止前状态：SUCCEEDED
+[2026-06-09 20:41:56.365][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=StopTask] >>> 任务 停止maafw任务开始（异步）。
+[2026-06-09 20:41:56.368][INF] [cfg=Default][inst=配置 1/default][src=Monitor][op=MonitorLog] 任务已全部完成！
+(用时 0h 0m 3s)
+[2026-06-09 20:42:19.133][INF] [cfg=Default] 应用已关闭
+[2026-06-09 20:48:35.734][INF] 正在加载配置列表...
+[2026-06-09 20:48:35.759][INF] 应用安装目录：C:\Users\29374\Desktop\MAAXYZ
+[2026-06-09 20:48:35.759][INF] 应用数据目录：C:\Users\29374\Desktop\MAAXYZ
+[2026-06-09 20:48:35.759][INF] 是否使用独立数据目录：False
+[2026-06-09 20:48:35.759][INF] 配置目录：C:\Users\29374\Desktop\MAAXYZ\config
+[2026-06-09 20:48:35.759][INF] 是否使用本地配置目录：True
+[2026-06-09 20:48:35.759][INF] 日志目录：C:\Users\29374\Desktop\MAAXYZ\logs
+[2026-06-09 20:48:35.759][INF] 备份文件数量：0
+[2026-06-09 20:48:35.759][INF] 临时目录是否存在：True
+[2026-06-09 20:48:35.759][INF] [cfg=Default] 应用安装目录：C:\Users\29374\Desktop\MAAXYZ
+[2026-06-09 20:48:35.759][INF] [cfg=Default] 应用数据目录：C:\Users\29374\Desktop\MAAXYZ
+[2026-06-09 20:48:35.759][INF] [cfg=Default] 是否使用独立数据目录：False
+[2026-06-09 20:48:35.759][INF] [cfg=Default] 配置目录：C:\Users\29374\Desktop\MAAXYZ\config
+[2026-06-09 20:48:35.759][INF] [cfg=Default] 是否使用本地配置目录：True
+[2026-06-09 20:48:35.759][INF] [cfg=Default] 日志目录：C:\Users\29374\Desktop\MAAXYZ\logs
+[2026-06-09 20:48:35.759][INF] [cfg=Default] 备份文件数量：0
+[2026-06-09 20:48:35.759][INF] [cfg=Default] 临时目录是否存在：True
+[2026-06-09 20:48:35.761][INF] [cfg=Default] 已通过 Windows API 添加 DLL 搜索目录：C:\Users\29374\Desktop\MAAXYZ\libs
+[2026-06-09 20:48:35.762][INF] [cfg=Default] 库解析器初始化完成：libsPath=C:\Users\29374\Desktop\MAAXYZ\libs，目录存在=True
+[2026-06-09 20:48:35.762][INF] [cfg=Default] 检测到 MaaFramework 运行时目录：数量=1，路径=[C:\Users\29374\Desktop\MAAXYZ\runtimes\win-x64\native]
+[2026-06-09 20:48:35.764][INF] [cfg=Default] 启动参数：数量=0，内容=[]
+[2026-06-09 20:48:35.764][INF] [cfg=Default] 程序版本：v2.12.2-beta.1
+[2026-06-09 20:48:35.764][INF] [cfg=Default] .NET 运行时：.NET 10.0.8
+[2026-06-09 20:48:36.412][INF] [cfg=Default] 开始初始化语言管理器。
+[2026-06-09 20:48:36.581][INF] [cfg=Default] 当前配置：Default
+[2026-06-09 20:48:36.637][INF] [cfg=Default] 已恢复系统休眠。
+[2026-06-09 20:48:36.640][INF] [cfg=Default] 热键主进程选举：已成为主进程（创建了新的全局互斥锁）。
+[2026-06-09 20:48:36.641][INF] [cfg=Default] 全局热键服务：作为主进程初始化。
+[2026-06-09 20:48:36.651][INF] [cfg=Default] 热键 IPC 端口文件已保存：文件=C:\Users\29374\AppData\Local\Temp\MFAAvalonia\hotkey_ipc_port.txt
+[2026-06-09 20:48:36.651][INF] [cfg=Default] 热键 IPC 服务端已启动：端口=52718
+[2026-06-09 20:48:36.666][INF] [cfg=Default] [内存管理]释放了2.68 MB（48.3%)
+[2026-06-09 20:48:36.719][WRN] [cfg=Default] 界面资源接口尚未初始化完成。
+[2026-06-09 20:48:36.728][INF] [cfg=Default] [调试] instances 目录中实际存在的实例文件数量：2, ID列表：[default, e2fafa1f]
+[2026-06-09 20:48:36.728][INF] [cfg=Default] [调试] 检测到存在其他实例的 default 实例文件，但其包含真实配置，已保留
+[2026-06-09 20:48:36.791][INF] [cfg=Default] 本地更新包按钮可见性已刷新：来源=config.Debug(string)，原始值=，解析结果=False
+[2026-06-09 20:48:36.792][INF] [cfg=Default] 资源版本：1.0.0
+[2026-06-09 20:48:36.792][INF] [cfg=Default] MaaFramework 版本：v5.10.2
+[2026-06-09 20:48:36.846][INF] [cfg=Default] [懒加载] 已加载当天有定时任务的实例
+[2026-06-09 20:48:36.914][INF] [cfg=Default] 窗口大小已加载：宽度=1445，高度=789
+[2026-06-09 20:48:36.924][INF] [cfg=Default] 窗口位置已加载：X=199，Y=189
+[2026-06-09 20:48:37.213][WRN] [cfg=Default] 跨平台数据解密失败：参数错误。
+[2026-06-09 20:48:37.269][WRN] [cfg=Default] 跨平台数据解密失败：The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+[2026-06-09 20:48:37.327][INF] [cfg=Default] 本地更新包按钮可见性已刷新：来源=config.Debug(string)，原始值=，解析结果=False
+[2026-06-09 20:48:37.327][INF] [cfg=Default] 设置页调试卡片可见性已应用：False
+[2026-06-09 20:48:37.469][INF] [cfg=Default] [调试] instances 目录中实际存在的实例文件数量：2, ID列表：[default, e2fafa1f]
+[2026-06-09 20:48:37.469][INF] [cfg=Default] [调试] 检测到存在其他实例的 default 实例文件，但其包含真实配置，已保留
+[2026-06-09 20:48:37.476][INF] [cfg=Default] [懒加载] 已加载当天有定时任务的实例
+[2026-06-09 20:48:37.838][INF] [cfg=Default] 资源版本：1.0.0
+[2026-06-09 20:48:37.839][INF] [cfg=Default] MaaFramework 版本：v5.10.2
+[2026-06-09 20:48:37.842][INF] [cfg=Default] [懒加载] 所有实例加载完成
+[2026-06-09 20:48:37.847][INF] [cfg=Default] 正在从配置中读取已保存的 ADB 设备，并启用指纹匹配。
+[2026-06-09 20:48:37.848][INF] [cfg=Default] 已保存设备的指纹：MuMu安卓设备-MuMuPlayer12 v5|0|127.0.0.1|16384
+[2026-06-09 20:48:37.908][INF] [cfg=Default] 界面初始化开始
+[2026-06-09 20:48:37.976][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeResource] 当前资源变更：resource=, controller=Adb
+[2026-06-09 20:48:37.978][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeResource] 当前资源变更：resource=通用, controller=Adb
+[2026-06-09 20:48:37.980][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeResource] 当前资源变更：resource=, controller=Adb
+[2026-06-09 20:48:37.981][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeResource] 当前资源变更：resource=通用, controller=Adb
+[2026-06-09 20:48:37.995][INF] [cfg=Default] 按指纹匹配到的设备数量：1
+[2026-06-09 20:48:37.995][INF] [cfg=Default] 已通过指纹匹配到设备：名称=MuMu安卓设备-MuMuPlayer12 v5，ADB 序列号=127.0.0.1:16384
+[2026-06-09 20:48:38.288][INF] [cfg=Default] >>> 任务 公告和最新版本检测开始（异步）。
+[2026-06-09 20:48:38.384][INF] [cfg=Default] [懒加载] 所有实例加载完成
+[2026-06-09 20:48:38.403][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeDevice] 当前连接目标变更：controller=Adb, resource=通用, device=MuMu安卓设备-MuMuPlayer12 v5（127.0.0.1:16384)
+[2026-06-09 20:48:38.588][INF] [cfg=Default] >>> 任务 刷新设备开始。
+[2026-06-09 20:48:38.698][INF] [cfg=Default][inst=配置 1/default][src=UI][op=MatchAdbDevice] 当前设备指纹：name=MuMu安卓设备-MuMuPlayer12 v5, serial=127.0.0.1:16384, configLength=68
+[2026-06-09 20:48:38.699][INF] [cfg=Default] 按指纹匹配到的设备数量：1
+[2026-06-09 20:48:38.699][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeDevice] 当前连接目标变更：controller=Adb, resource=通用, device=<none>
+[2026-06-09 20:48:38.700][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeDevice] 当前连接目标变更：controller=Adb, resource=通用, device=MuMu安卓设备-MuMuPlayer12 v5（127.0.0.1:16384)
+[2026-06-09 20:48:38.701][INF] [cfg=Default] >>> 任务 刷新设备完成。
+[2026-06-09 20:48:38.752][INF] [cfg=Default][inst=配置 1/default][src=Monitor][op=MonitorLog] 正在连接至模拟器......
+[2026-06-09 20:48:38.769][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 启动任务开始（异步）。
+[2026-06-09 20:48:38.778][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 正在载入资源
+[2026-06-09 20:48:38.779][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 资源路径：C:\Users\29374\Desktop\MAAXYZ\resource
+[2026-06-09 20:48:38.779][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 资源检测开始（异步）。
+[2026-06-09 20:48:38.878][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 资源检测完成（异步）。
+[2026-06-09 20:48:38.880][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 启用 GPU 推理：成功
+[2026-06-09 20:48:38.880][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] GPU acceleration: Auto
+[2026-06-09 20:48:38.880][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 控制器检测开始（异步）。
+[2026-06-09 20:48:38.881][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 正在加载 MAA 控制器配置...
+[2026-06-09 20:48:38.883][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 触控模式:Default,捕获模式:EmulatorExtras
+[2026-06-09 20:48:38.883][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 设备名称：MuMu安卓设备-MuMuPlayer12 v5
+[2026-06-09 20:48:38.883][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] ADB 路径：D:/MuMuPlayer/nx_main/adb.exe
+[2026-06-09 20:48:38.883][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] ADB 序列号：127.0.0.1:16384
+[2026-06-09 20:48:38.883][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 截图模式：EmulatorExtras
+[2026-06-09 20:48:38.883][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 输入模式：Default
+[2026-06-09 20:48:38.883][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 控制器配置：{"extras":{"mumu":{"enable":true,"index":0,"path":"D:/MuMuPlayer"}}
+[2026-06-09 20:48:39.351][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 控制器检测完成（异步）。
+[2026-06-09 20:48:39.708][INF] [cfg=Default] 公告数量：3
+[2026-06-09 20:48:39.795][INF] [cfg=Default] >>> 任务 公告和最新版本检测完成（异步）。
+[2026-06-09 20:48:40.130][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 已注册内置特殊任务动作。
+[2026-06-09 20:48:40.130][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 未找到自定义目录：C:\Users\29374\Desktop\MAAXYZ\.\resource\custom
+[2026-06-09 20:48:40.130][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 未找到自定义目录：C:\Users\29374\Desktop\MAAXYZ\resource\custom
+[2026-06-09 20:48:40.130][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 连接状态变更：已连接。
+[2026-06-09 20:48:40.131][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] MaaFW 调试模式：False
+[2026-06-09 20:48:42.057][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 启动检测开始（异步）。
+[2026-06-09 20:48:42.058][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 开始执行更新任务：名称=查询CDK
+[2026-06-09 20:48:42.059][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 更新任务完成：名称=查询CDK
+[2026-06-09 20:48:42.059][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 启动检测完成（异步）。
+[2026-06-09 20:48:42.060][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 启动任务完成（异步）。
+[2026-06-09 20:48:42.063][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=StopTask] 停止前状态：SUCCEEDED
+[2026-06-09 20:48:42.064][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=StopTask] >>> 任务 停止maafw任务开始（异步）。
+[2026-06-09 20:48:42.067][INF] [cfg=Default][inst=配置 1/default][src=Monitor][op=MonitorLog] 任务已全部完成！
+(用时 0h 0m 3s)
+[2026-06-09 20:48:49.116][INF] [cfg=Default] 应用已关闭
+[2026-06-09 20:52:47.375][INF] 正在加载配置列表...
+[2026-06-09 20:52:47.399][INF] 应用安装目录：C:\Users\29374\Desktop\MAAXYZ
+[2026-06-09 20:52:47.400][INF] 应用数据目录：C:\Users\29374\Desktop\MAAXYZ
+[2026-06-09 20:52:47.400][INF] 是否使用独立数据目录：False
+[2026-06-09 20:52:47.400][INF] 配置目录：C:\Users\29374\Desktop\MAAXYZ\config
+[2026-06-09 20:52:47.400][INF] 是否使用本地配置目录：True
+[2026-06-09 20:52:47.400][INF] 日志目录：C:\Users\29374\Desktop\MAAXYZ\logs
+[2026-06-09 20:52:47.400][INF] 备份文件数量：0
+[2026-06-09 20:52:47.400][INF] 临时目录是否存在：True
+[2026-06-09 20:52:47.400][INF] [cfg=Default] 应用安装目录：C:\Users\29374\Desktop\MAAXYZ
+[2026-06-09 20:52:47.400][INF] [cfg=Default] 应用数据目录：C:\Users\29374\Desktop\MAAXYZ
+[2026-06-09 20:52:47.400][INF] [cfg=Default] 是否使用独立数据目录：False
+[2026-06-09 20:52:47.400][INF] [cfg=Default] 配置目录：C:\Users\29374\Desktop\MAAXYZ\config
+[2026-06-09 20:52:47.400][INF] [cfg=Default] 是否使用本地配置目录：True
+[2026-06-09 20:52:47.400][INF] [cfg=Default] 日志目录：C:\Users\29374\Desktop\MAAXYZ\logs
+[2026-06-09 20:52:47.400][INF] [cfg=Default] 备份文件数量：0
+[2026-06-09 20:52:47.400][INF] [cfg=Default] 临时目录是否存在：True
+[2026-06-09 20:52:47.402][INF] [cfg=Default] 已通过 Windows API 添加 DLL 搜索目录：C:\Users\29374\Desktop\MAAXYZ\libs
+[2026-06-09 20:52:47.403][INF] [cfg=Default] 库解析器初始化完成：libsPath=C:\Users\29374\Desktop\MAAXYZ\libs，目录存在=True
+[2026-06-09 20:52:47.403][INF] [cfg=Default] 检测到 MaaFramework 运行时目录：数量=1，路径=[C:\Users\29374\Desktop\MAAXYZ\runtimes\win-x64\native]
+[2026-06-09 20:52:47.405][INF] [cfg=Default] 启动参数：数量=0，内容=[]
+[2026-06-09 20:52:47.405][INF] [cfg=Default] 程序版本：v2.12.2-beta.1
+[2026-06-09 20:52:47.405][INF] [cfg=Default] .NET 运行时：.NET 10.0.8
+[2026-06-09 20:52:48.053][INF] [cfg=Default] 开始初始化语言管理器。
+[2026-06-09 20:52:48.211][INF] [cfg=Default] 当前配置：Default
+[2026-06-09 20:52:48.266][INF] [cfg=Default] 已恢复系统休眠。
+[2026-06-09 20:52:48.270][INF] [cfg=Default] 热键主进程选举：已成为主进程（创建了新的全局互斥锁）。
+[2026-06-09 20:52:48.270][INF] [cfg=Default] 全局热键服务：作为主进程初始化。
+[2026-06-09 20:52:48.280][INF] [cfg=Default] 热键 IPC 端口文件已保存：文件=C:\Users\29374\AppData\Local\Temp\MFAAvalonia\hotkey_ipc_port.txt
+[2026-06-09 20:52:48.280][INF] [cfg=Default] 热键 IPC 服务端已启动：端口=52718
+[2026-06-09 20:52:48.293][INF] [cfg=Default] [内存管理]释放了2.70 MB（48.5%)
+[2026-06-09 20:52:48.347][WRN] [cfg=Default] 界面资源接口尚未初始化完成。
+[2026-06-09 20:52:48.357][INF] [cfg=Default] [调试] instances 目录中实际存在的实例文件数量：2, ID列表：[default, e2fafa1f]
+[2026-06-09 20:52:48.357][INF] [cfg=Default] [调试] 检测到存在其他实例的 default 实例文件，但其包含真实配置，已保留
+[2026-06-09 20:52:48.422][INF] [cfg=Default] 本地更新包按钮可见性已刷新：来源=config.Debug(string)，原始值=，解析结果=False
+[2026-06-09 20:52:48.423][INF] [cfg=Default] 资源版本：1.0.0
+[2026-06-09 20:52:48.423][INF] [cfg=Default] MaaFramework 版本：v5.10.2
+[2026-06-09 20:52:48.477][INF] [cfg=Default] [懒加载] 已加载当天有定时任务的实例
+[2026-06-09 20:52:48.548][INF] [cfg=Default] 窗口大小已加载：宽度=1445，高度=789
+[2026-06-09 20:52:48.557][INF] [cfg=Default] 窗口位置已加载：X=199，Y=189
+[2026-06-09 20:52:48.831][WRN] [cfg=Default] 跨平台数据解密失败：参数错误。
+[2026-06-09 20:52:48.886][WRN] [cfg=Default] 跨平台数据解密失败：The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+[2026-06-09 20:52:48.941][INF] [cfg=Default] 本地更新包按钮可见性已刷新：来源=config.Debug(string)，原始值=，解析结果=False
+[2026-06-09 20:52:48.941][INF] [cfg=Default] 设置页调试卡片可见性已应用：False
+[2026-06-09 20:52:49.076][INF] [cfg=Default] [调试] instances 目录中实际存在的实例文件数量：2, ID列表：[default, e2fafa1f]
+[2026-06-09 20:52:49.076][INF] [cfg=Default] [调试] 检测到存在其他实例的 default 实例文件，但其包含真实配置，已保留
+[2026-06-09 20:52:49.083][INF] [cfg=Default] [懒加载] 已加载当天有定时任务的实例
+[2026-06-09 20:52:49.428][INF] [cfg=Default] 资源版本：1.0.0
+[2026-06-09 20:52:49.428][INF] [cfg=Default] MaaFramework 版本：v5.10.2
+[2026-06-09 20:52:49.431][INF] [cfg=Default] [懒加载] 所有实例加载完成
+[2026-06-09 20:52:49.435][INF] [cfg=Default] 正在从配置中读取已保存的 ADB 设备，并启用指纹匹配。
+[2026-06-09 20:52:49.437][INF] [cfg=Default] 已保存设备的指纹：MuMu安卓设备-MuMuPlayer12 v5|0|127.0.0.1|16384
+[2026-06-09 20:52:49.493][INF] [cfg=Default] 界面初始化开始
+[2026-06-09 20:52:49.557][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeResource] 当前资源变更：resource=, controller=Adb
+[2026-06-09 20:52:49.558][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeResource] 当前资源变更：resource=通用, controller=Adb
+[2026-06-09 20:52:49.560][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeResource] 当前资源变更：resource=, controller=Adb
+[2026-06-09 20:52:49.561][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeResource] 当前资源变更：resource=通用, controller=Adb
+[2026-06-09 20:52:49.659][INF] [cfg=Default] 按指纹匹配到的设备数量：1
+[2026-06-09 20:52:49.660][INF] [cfg=Default] 已通过指纹匹配到设备：名称=MuMu安卓设备-MuMuPlayer12 v5，ADB 序列号=127.0.0.1:16384
+[2026-06-09 20:52:49.870][INF] [cfg=Default] >>> 任务 公告和最新版本检测开始（异步）。
+[2026-06-09 20:52:49.930][INF] [cfg=Default] [懒加载] 所有实例加载完成
+[2026-06-09 20:52:50.009][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeDevice] 当前连接目标变更：controller=Adb, resource=通用, device=MuMu安卓设备-MuMuPlayer12 v5（127.0.0.1:16384)
+[2026-06-09 20:52:50.170][INF] [cfg=Default] >>> 任务 刷新设备开始。
+[2026-06-09 20:52:50.278][INF] [cfg=Default][inst=配置 1/default][src=UI][op=MatchAdbDevice] 当前设备指纹：name=MuMu安卓设备-MuMuPlayer12 v5, serial=127.0.0.1:16384, configLength=68
+[2026-06-09 20:52:50.278][INF] [cfg=Default] 按指纹匹配到的设备数量：1
+[2026-06-09 20:52:50.278][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeDevice] 当前连接目标变更：controller=Adb, resource=通用, device=<none>
+[2026-06-09 20:52:50.279][INF] [cfg=Default][inst=配置 1/default][src=UI][op=ChangeDevice] 当前连接目标变更：controller=Adb, resource=通用, device=MuMu安卓设备-MuMuPlayer12 v5（127.0.0.1:16384)
+[2026-06-09 20:52:50.280][INF] [cfg=Default] >>> 任务 刷新设备完成。
+[2026-06-09 20:52:50.330][INF] [cfg=Default][inst=配置 1/default][src=Monitor][op=MonitorLog] 正在连接至模拟器......
+[2026-06-09 20:52:50.343][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 启动任务开始（异步）。
+[2026-06-09 20:52:50.349][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 正在载入资源
+[2026-06-09 20:52:50.350][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 资源路径：C:\Users\29374\Desktop\MAAXYZ\resource
+[2026-06-09 20:52:50.350][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 资源检测开始（异步）。
+[2026-06-09 20:52:50.452][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 资源检测完成（异步）。
+[2026-06-09 20:52:50.453][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 启用 GPU 推理：成功
+[2026-06-09 20:52:50.453][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] GPU acceleration: Auto
+[2026-06-09 20:52:50.454][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 控制器检测开始（异步）。
+[2026-06-09 20:52:50.455][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 正在加载 MAA 控制器配置...
+[2026-06-09 20:52:50.456][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 触控模式:Default,捕获模式:EmulatorExtras
+[2026-06-09 20:52:50.457][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 设备名称：MuMu安卓设备-MuMuPlayer12 v5
+[2026-06-09 20:52:50.457][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] ADB 路径：D:/MuMuPlayer/nx_main/adb.exe
+[2026-06-09 20:52:50.457][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] ADB 序列号：127.0.0.1:16384
+[2026-06-09 20:52:50.457][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 截图模式：EmulatorExtras
+[2026-06-09 20:52:50.457][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 输入模式：Default
+[2026-06-09 20:52:50.457][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 控制器配置：{"extras":{"mumu":{"enable":true,"index":0,"path":"D:/MuMuPlayer"}}
+[2026-06-09 20:52:50.956][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 控制器检测完成（异步）。
+[2026-06-09 20:52:51.284][INF] [cfg=Default] 公告数量：3
+[2026-06-09 20:52:51.368][INF] [cfg=Default] >>> 任务 公告和最新版本检测完成（异步）。
+[2026-06-09 20:52:51.741][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 已注册内置特殊任务动作。
+[2026-06-09 20:52:51.741][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 未找到自定义目录：C:\Users\29374\Desktop\MAAXYZ\.\resource\custom
+[2026-06-09 20:52:51.741][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 未找到自定义目录：C:\Users\29374\Desktop\MAAXYZ\resource\custom
+[2026-06-09 20:52:51.741][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 连接状态变更：已连接。
+[2026-06-09 20:52:51.743][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] MaaFW 调试模式：False
+[2026-06-09 20:52:53.621][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 启动检测开始（异步）。
+[2026-06-09 20:52:53.622][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 开始执行更新任务：名称=查询CDK
+[2026-06-09 20:52:53.623][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] 更新任务完成：名称=查询CDK
+[2026-06-09 20:52:53.623][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 启动检测完成（异步）。
+[2026-06-09 20:52:53.624][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=ExecuteTaskQueue] >>> 任务 启动任务完成（异步）。
+[2026-06-09 20:52:53.625][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=StopTask] 停止前状态：SUCCEEDED
+[2026-06-09 20:52:53.626][INF] [cfg=Default][inst=配置 1/default][src=Worker][op=StopTask] >>> 任务 停止maafw任务开始（异步）。
+[2026-06-09 20:52:53.629][INF] [cfg=Default][inst=配置 1/default][src=Monitor][op=MonitorLog] 任务已全部完成！
+(用时 0h 0m 3s)
+[2026-06-09 20:53:20.958][INF] [cfg=Default] 应用已关闭

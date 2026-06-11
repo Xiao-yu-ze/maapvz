@@ -2,17 +2,16 @@
     "resource": "通用",
     "controller": "安卓端",
     "adb": {
-        "adb_path": "D:/leidian/LDPlayer9/adb.exe",
-        "address": "emulator-5560",
+        "adb_path": "D:/MuMuPlayer/nx_main/adb.exe",
+        "address": "127.0.0.1:16384",
         "screencap": "64",
         "input": "18446744073709551607",
         "config": {
             "extras": {
-                "ld": {
+                "mumu": {
                     "enable": true,
-                    "index": 3,
-                    "path": "D:/leidian/LDPlayer9",
-                    "pid": 32340
+                    "index": 0,
+                    "path": "D:/MuMuPlayer"
                 }
             }
         }

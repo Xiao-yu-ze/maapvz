@@ -1,0 +1,807 @@
+{
+    "双赢": {
+    "recognition": "DirectHit",
+    "action": "DoNothing",
+    "post_delay": 100,
+    "pre_delay": 100,
+    "next": ["识别主页"]
+  },
+
+    "识别主页": {
+    "recognition": "OCR",
+    "expected": "主题介绍",
+    "action": "DoNothing",
+    "roi": [42, 192, 214, 72],
+    "post_delay": 100,
+    "pre_delay": 100,
+    "timeout": 30000,
+    "next": ["竞技"]
+    } ,
+
+    "竞技": {
+    "action": "Click",
+    "target": [1447,611,61,67],
+    "post_delay": 100,
+    "pre_delay": 100,
+    "next": ["识别点击开始匹配"]
+  },
+
+    "识别点击开始匹配": {
+    "recognition": "OCR",
+    "expected": "开始匹配",
+    "action": "Click",
+    "roi": [1636, 970, 282, 86],
+    "post_delay": 5000,
+    "pre_delay": 2000,
+    "timeout": 20000,
+    "next": ["识别是否进入关内","超时"]
+    } ,
+
+    "超时": {
+    "recognition": "OCR",
+    "expected": "确定",
+    "action": "Click",
+    "roi": [903,750,119,49],
+    "post_delay": 2000,
+    "pre_delay": 2000,
+    "timeout": 15000,
+    "next": ["返回"]
+    } ,
+
+    "返回": {
+    "recognition": "OCR",
+    "expected": "开始匹配",
+    "action": "DoNothing",
+    "roi": [1636, 970, 282, 86],
+    "post_delay": 100,
+    "pre_delay": 2000,
+    "timeout": 20000,
+    "next": ["点击返回"]
+    },
+
+    "点击返回": {
+    "action": "Click",
+    "target": [1858,39],
+    "post_delay": 100,
+    "pre_delay": 100,
+    "next": ["回到主页"]
+    } ,
+
+
+    "回到主页": {
+    "recognition": "OCR",
+    "expected": "主题介绍",
+    "action": "DoNothing",
+    "roi": [42, 192, 214, 72],
+    "post_delay": 100,
+    "pre_delay": 100,
+    "timeout": 30000,
+    "next": ["点击返回1"]
+    } ,
+
+    "点击返回1": {
+    "action": "Click",
+    "target": [1858,39],
+    "post_delay": 100,
+    "pre_delay": 100,
+    "next": ["星系"]
+    } ,
+
+    "星系": {
+    "action": "Click",
+    "target": [1791,991],
+    "post_delay": 100,
+    "pre_delay": 5000,
+    "next": ["点击返回2"]
+    } ,
+
+    "点击返回2": {
+    "action": "Click",
+    "target": [48,51],
+    "post_delay": 100,
+    "pre_delay": 3000,
+    "next": ["点击开始游戏"]
+    } ,
+
+    "点击开始游戏": {
+    "action": "Click",
+    "target": [943,858],
+    "post_delay": 100,
+    "pre_delay": 5000,
+    "next": ["使用本地"]
+    } ,
+
+    "使用本地": {
+    "action": "Click",
+    "target": [943,858],
+    "post_delay": 3000,
+    "pre_delay": 500,
+    "next": ["公告"]
+    } ,
+
+    "公告": {
+    "recognition": "OCR",
+    "expected": "公告",
+    "roi": [849,89,195,82],
+    "action": "DoNothing",
+    "post_delay": 100,
+    "pre_delay": 1000,
+    "next": ["公告的叉"]
+    } ,
+
+    "公告的叉": {
+    "action": "DoNothing",
+    "target": [1639,94,29,13],
+    "post_delay": 100,
+    "pre_delay": 1000,
+    "next": ["公告的叉"]
+    } ,
+
+    "主页的竞技": {
+    "action": "Click",
+    "target": [1244,1009,48,45],
+    "post_delay": 100,
+    "pre_delay": 5000,
+    "next": ["双人"]
+    } ,
+
+    "双人": {
+    "recognition":"OCR",
+    "expected": "双人对决",
+    "action": "Click",
+    "post_delay": 100,
+    "pre_delay": 100,
+    "next": ["双赢"]
+    } ,
+
+    "识别是否进入关内": {
+    "recognition": "OCR",
+    "expected": "升级",
+    "action": "Click",
+    "roi": [198,140,83,43],
+    "post_delay": 100,
+    "pre_delay": 1000,
+    "timeout": 15000,
+    "next": ["拉出状态栏"]
+    } ,
+
+    "拉出状态栏": {
+    "action": "Swipe",
+    "begin": [771,1],
+    "end": [771,200],
+    "duration": 100,
+    "post_delay": 0,
+    "pre_delay": 0,
+    "next": ["下拉状态栏"]
+  },
+
+    "下拉状态栏": {
+    "action": "Swipe",
+    "begin": [771,1],
+    "end": [771,1000],
+    "duration": 5000,
+    "post_delay": 100,
+    "pre_delay": 0,
+    "next": ["上拉状态栏"]
+  },
+
+    "上拉状态栏": {
+    "action":"Swipe",
+    "begin": [934,1024],
+    "end": [934,375],
+    "post_delay": 50,
+    "pre_delay": 0,
+    "next": ["拉出状态栏2"]
+    },
+    
+    "拉出状态栏2": {
+    "action": "Swipe",
+    "begin": [771,1],
+    "end": [771,200],
+    "duration": 100,
+    "post_delay": 0,
+    "pre_delay": 0,
+    "next": ["下拉状态栏2"]
+  },
+
+    "下拉状态栏2": {
+    "action": "Swipe",
+    "begin": [771,1],
+    "end": [771,1000],
+    "duration": 5000,
+    "post_delay": 100,
+    "pre_delay": 0,
+    "next": ["上拉状态栏2"]
+  },
+
+    "上拉状态栏2": {
+    "action":"Swipe",
+    "begin": [934,1024],
+    "end": [934,375],
+    "post_delay": 50,
+    "pre_delay": 0,
+    "next": ["拉出状态栏3"]
+    },
+
+    "拉出状态栏3": {
+    "action": "Swipe",
+    "begin": [771,1],
+    "end": [771,200],
+    "duration": 100,
+    "post_delay": 0,
+    "pre_delay": 0,
+    "next": ["下拉状态栏3"]
+  },
+
+    "下拉状态栏3": {
+    "action": "Swipe",
+    "begin": [771,1],
+    "end": [771,1000],
+    "duration": 5000,
+    "post_delay": 100,
+    "pre_delay": 0,
+    "next": ["上拉状态栏3"]
+  },
+
+    "上拉状态栏3": {
+    "action":"Swipe",
+    "begin": [934,1024],
+    "end": [934,375],
+    "post_delay": 50,
+    "pre_delay": 0,
+    "next": ["拉出状态栏4"]
+    },
+
+    "拉出状态栏4": {
+    "action": "Swipe",
+    "begin": [771,1],
+    "end": [771,200],
+    "duration": 100,
+    "post_delay": 0,
+    "pre_delay": 0,
+    "next": ["下拉状态栏4"]
+  },
+
+    "下拉状态栏4": {
+    "action": "Swipe",
+    "begin": [771,1],
+    "end": [771,1000],
+    "duration": 5000,
+    "post_delay": 100,
+    "pre_delay": 0,
+    "next": ["上拉状态栏4"]
+  },
+
+    "上拉状态栏4": {
+    "action":"Swipe",
+    "begin": [934,1024],
+    "end": [934,375],
+    "post_delay": 50,
+    "pre_delay": 0,
+    "next": ["拉出状态栏5"]
+    },
+
+    "拉出状态栏5": {
+    "action": "Swipe",
+    "begin": [771,1],
+    "end": [771,200],
+    "duration": 100,
+    "post_delay": 0,
+    "pre_delay": 0,
+    "next": ["下拉状态栏5"]
+  },
+
+    "下拉状态栏5": {
+    "action": "Swipe",
+    "begin": [771,1],
+    "end": [771,1000],
+    "duration": 5000,
+    "post_delay": 100,
+    "pre_delay": 0,
+    "next": ["上拉状态栏5"]
+  },
+
+    "上拉状态栏5": {
+    "action":"Swipe",
+    "begin": [934,1024],
+    "end": [934,375],
+    "post_delay": 50,
+    "pre_delay": 0,
+    "next": ["拉出状态栏6"]
+    },
+
+    "拉出状态栏6": {
+    "action": "Swipe",
+    "begin": [771,1],
+    "end": [771,200],
+    "duration": 100,
+    "post_delay": 0,
+    "pre_delay": 0,
+    "next": ["下拉状态栏6"]
+  },
+
+    "下拉状态栏6": {
+    "action": "Swipe",
+    "begin": [771,1],
+    "end": [771,1000],
+    "duration": 5000,
+    "post_delay": 100,
+    "pre_delay": 0,
+    "next": ["上拉状态栏6"]
+  },
+
+    "上拉状态栏6": {
+    "action":"Swipe",
+    "begin": [934,1024],
+    "end": [934,375],
+    "post_delay": 50,
+    "pre_delay": 0,
+    "next": ["拉出状态栏7"]
+    },
+
+    "拉出状态栏7": {
+    "action": "Swipe",
+    "begin": [771,1],
+    "end": [771,200],
+    "duration": 100,
+    "post_delay": 0,
+    "pre_delay": 0,
+    "next": ["下拉状态栏7"]
+  },
+
+    "下拉状态栏7": {
+    "action": "Swipe",
+    "begin": [771,1],
+    "end": [771,1000],
+    "duration": 5000,
+    "post_delay": 100,
+    "pre_delay": 0,
+    "next": ["上拉状态栏7"]
+  },
+
+    "上拉状态栏7": {
+    "action":"Swipe",
+    "begin": [934,1024],
+    "end": [934,375],
+    "post_delay": 50,
+    "pre_delay": 0,
+    "next": ["拉出状态栏8"]
+    },
+
+    "拉出状态栏8": {
+    "action": "Swipe",
+    "begin": [771,1],
+    "end": [771,200],
+    "duration": 100,
+    "post_delay": 0,
+    "pre_delay": 0,
+    "next": ["下拉状态栏8"]
+  },
+
+    "下拉状态栏8": {
+    "action": "Swipe",
+    "begin": [771,1],
+    "end": [771,1000],
+    "duration": 5000,
+    "post_delay": 100,
+    "pre_delay": 0,
+    "next": ["上拉状态栏8"]
+  },
+
+    "上拉状态栏8": {
+    "action":"Swipe",
+    "begin": [934,1024],
+    "end": [934,375],
+    "post_delay": 50,
+    "pre_delay": 0,
+    "next": ["拉出状态栏9"]
+    },
+
+    "拉出状态栏9": {
+    "action": "Swipe",
+    "begin": [771,1],
+    "end": [771,200],
+    "duration": 100,
+    "post_delay": 0,
+    "pre_delay": 0,
+    "next": ["下拉状态栏9"]
+  },
+
+    "下拉状态栏9": {
+    "action": "Swipe",
+    "begin": [771,1],
+    "end": [771,1000],
+    "duration": 5000,
+    "post_delay": 100,
+    "pre_delay": 0,
+    "next": ["上拉状态栏9"]
+  },
+
+    "上拉状态栏9": {
+    "action":"Swipe",
+    "begin": [934,1024],
+    "end": [934,375],
+    "post_delay": 50,
+    "pre_delay": 0,
+    "next": ["拉出状态栏10"]
+    },
+  
+    "拉出状态栏10": {
+    "action": "Swipe",
+    "begin": [771,1],
+    "end": [771,200],
+    "duration": 100,
+    "post_delay": 0,
+    "pre_delay": 0,
+    "next": ["下拉状态栏10"]
+  },
+
+    "下拉状态栏10": {
+    "action": "Swipe",
+    "begin": [771,1],
+    "end": [771,1000],
+    "duration": 5000,
+    "post_delay": 100,
+    "pre_delay": 0,
+    "next": ["上拉状态栏10"]
+  },
+
+
+    "上拉状态栏10": {
+    "action":"Swipe",
+    "begin": [934,1024],
+    "end": [934,375],
+    "post_delay": 50,
+    "pre_delay": 0,
+    "next": ["拉出状态栏11"]
+    },
+  
+    "拉出状态栏11": {
+    "action": "Swipe",
+    "begin": [771,1],
+    "end": [771,200],
+    "duration": 100,
+    "post_delay": 0,
+    "pre_delay": 0,
+    "next": ["下拉状态栏11"]
+  },
+
+    "下拉状态栏11": {
+    "action": "Swipe",
+    "begin": [771,1],
+    "end": [771,1000],
+    "duration": 5000,
+    "post_delay": 100,
+    "pre_delay": 0,
+    "next": ["上拉状态栏11"]
+  },
+
+    "上拉状态栏11": {
+    "action":"Swipe",
+    "begin": [934,1024],
+    "end": [934,375],
+    "post_delay": 50,
+    "pre_delay": 0,
+    "next": ["拉出状态栏12"]
+    },
+  
+    "拉出状态栏12": {
+    "action": "Swipe",
+    "begin": [771,1],
+    "end": [771,200],
+    "duration": 100,
+    "post_delay": 0,
+    "pre_delay": 0,
+    "next": ["下拉状态栏12"]
+  },
+
+    "下拉状态栏12": {
+    "action": "Swipe",
+    "begin": [771,1],
+    "end": [771,1000],
+    "duration": 5000,
+    "post_delay": 100,
+    "pre_delay": 0,
+    "next": ["上拉状态栏12"]
+  },
+
+    "上拉状态栏12": {
+    "action":"Swipe",
+    "begin": [934,1024],
+    "end": [934,375],
+    "post_delay": 50,
+    "pre_delay": 0,
+    "next": ["拉出状态栏13"]
+    },
+  
+    "拉出状态栏13": {
+    "action": "Swipe",
+    "begin": [771,1],
+    "end": [771,200],
+    "duration": 100,
+    "post_delay": 0,
+    "pre_delay": 0,
+    "next": ["下拉状态栏13"]
+  },
+
+    "下拉状态栏13": {
+    "action": "Swipe",
+    "begin": [771,1],
+    "end": [771,1000],
+    "duration": 5000,
+    "post_delay": 100,
+    "pre_delay": 0,
+    "next": ["上拉状态栏13"]
+  },
+
+    "上拉状态栏13": {
+    "action":"Swipe",
+    "begin": [934,1024],
+    "end": [934,375],
+    "post_delay": 50,
+    "pre_delay": 0,
+    "next": ["拉出状态栏14"]
+    },
+  
+    "拉出状态栏14": {
+    "action": "Swipe",
+    "begin": [771,1],
+    "end": [771,200],
+    "duration": 100,
+    "post_delay": 0,
+    "pre_delay": 0,
+    "next": ["下拉状态栏14"]
+  },
+
+    "下拉状态栏14": {
+    "action": "Swipe",
+    "begin": [771,1],
+    "end": [771,1000],
+    "duration": 5000,
+    "post_delay": 100,
+    "pre_delay": 0,
+    "next": ["上拉状态栏14"]
+  },
+
+    "上拉状态栏14": {
+    "action":"Swipe",
+    "begin": [934,1024],
+    "end": [934,375],
+    "post_delay": 50,
+    "pre_delay": 0,
+    "next": ["拉出状态栏15"]
+    },
+  
+    "拉出状态栏15": {
+    "action": "Swipe",
+    "begin": [771,1],
+    "end": [771,200],
+    "duration": 100,
+    "post_delay": 0,
+    "pre_delay": 0,
+    "next": ["下拉状态栏15"]
+  },
+
+    "下拉状态栏15": {
+    "action": "Swipe",
+    "begin": [771,1],
+    "end": [771,1000],
+    "duration": 5000,
+    "post_delay": 100,
+    "pre_delay": 0,
+    "next": ["上拉状态栏15"]
+  },
+
+    "上拉状态栏15": {
+    "action":"Swipe",
+    "begin": [934,1024],
+    "end": [934,375],
+    "post_delay": 50,
+    "pre_delay": 0,
+    "next": ["拉出状态栏16"]
+    },
+  
+    "拉出状态栏16": {
+    "action": "Swipe",
+    "begin": [771,1],
+    "end": [771,200],
+    "duration": 100,
+    "post_delay": 0,
+    "pre_delay": 0,
+    "next": ["下拉状态栏16"]
+  },
+
+    "下拉状态栏16": {
+    "action": "Swipe",
+    "begin": [771,1],
+    "end": [771,1000],
+    "duration": 5000,
+    "post_delay": 100,
+    "pre_delay": 0,
+    "next": ["上拉状态栏16"]
+  },
+
+    "上拉状态栏16": {
+    "action":"Swipe",
+    "begin": [934,1024],
+    "end": [934,375],
+    "post_delay": 50,
+    "pre_delay": 0,
+    "next": ["拉出状态栏17"]
+    },
+  
+    "拉出状态栏17": {
+    "action": "Swipe",
+    "begin": [771,1],
+    "end": [771,200],
+    "duration": 100,
+    "post_delay": 0,
+    "pre_delay": 0,
+    "next": ["下拉状态栏17"]
+  },
+
+    "下拉状态栏17": {
+    "action": "Swipe",
+    "begin": [771,1],
+    "end": [771,1000],
+    "duration": 5000,
+    "post_delay": 100,
+    "pre_delay": 0,
+    "next": ["上拉状态栏17"]
+  },
+
+    "上拉状态栏17": {
+    "action":"Swipe",
+    "begin": [934,1024],
+    "end": [934,375],
+    "post_delay": 50,
+    "pre_delay": 0,
+    "next": ["拉出状态栏18"]
+    },
+
+    "拉出状态栏18": {
+    "action": "Swipe",
+    "begin": [771,1],
+    "end": [771,200],
+    "duration": 100,
+    "post_delay": 0,
+    "pre_delay": 0,
+    "next": ["下拉状态栏18"]
+  },
+
+    "下拉状态栏18": {
+    "action": "Swipe",
+    "begin": [771,1],
+    "end": [771,1000],
+    "duration": 5000,
+    "post_delay": 100,
+    "pre_delay": 0,
+    "next": ["上拉状态栏18"]
+  },
+
+    "上拉状态栏18": {
+    "action":"Swipe",
+    "begin": [934,1024],
+    "end": [934,375],
+    "post_delay": 50,
+    "pre_delay": 0,
+    "next": ["种海枣"]
+    },
+    "种海枣": {
+    "action": "Swipe",
+    "begin": [106,242],
+    "end": [773,317],
+    "duration": 200,
+    "post_delay": 0,
+    "pre_delay": 0,
+    "next": ["识别冰龙"]
+  },
+    "识别冰龙": {
+    "recognition": "ColorMatch",
+    "roi": [260,229,25,16], 
+    "method": 4, 
+    "lower": [239,247,255], 
+    "upper": [239,247,255], 
+    "timeout": 30000,
+    "post_delay": 1000,
+    "rate_limit": 100,
+    "next": ["种冰龙"]
+  },
+
+    "种冰龙": {
+    "action": "Swipe",
+    "begin": [260,229],
+    "end": [680,323],
+    "duration": 200,
+    "post_delay": 500,
+    "pre_delay": 0,
+    "next": ["识别冰龙2"]
+  },
+  
+    "识别冰龙2": {
+    "recognition": "ColorMatch",
+    "roi": [260,229,25,16], 
+    "method": 4, 
+    "lower": [239,247,255], 
+    "upper": [239,247,255], 
+    "post_delay": 1000,
+    "timeout": 30000,
+    "rate_limit": 100,
+    "next": ["种冰龙2"]
+  },
+    "种冰龙2": {
+    "action": "Swipe",
+    "begin": [260,229],
+    "end": [[676,203]],
+    "duration": 200,
+    "post_delay": 500,
+    "pre_delay": 0,
+    "next": ["识别冰龙3"]
+  },
+    "识别冰龙3": {
+    "recognition": "ColorMatch",
+    "roi": [260,229,25,16], 
+    "method": 4, 
+    "lower": [239,247,255], 
+    "upper": [239,247,255], 
+    "post_delay": 1000,
+    "timeout": 30000,
+    "rate_limit": 100,
+    "next": ["种冰龙3"]
+  },
+   "种冰龙3": {
+    "action": "Swipe",
+    "begin": [260,229],
+    "end": [682,446],
+    "duration": 200,
+    "post_delay": 100000,
+    "pre_delay": 0,
+    "next": ["免控buff出现"]
+  },
+
+    "免控buff出现": {
+    "recognition": "ColorMatch",
+    "roi": [299,1012,16,14], 
+    "method": 4, 
+    "lower": [255, 254, 214], 
+    "upper": [255, 254, 255], 
+    "action": "Click",
+    "rate_limit": 1000,
+    "timeout": -1,
+    "next": ["放橄榄球"]
+    } ,
+
+    "放橄榄球": {
+    "action": "Click",
+    "target": [290,768],
+    "post_delay": 0,
+    "pre_delay": 0,
+    "next": ["是否结算","放橄榄球"]
+  },
+
+    "是否结算": {
+    "recognition": "ColorMatch",
+    "roi": [1842,23,33,35], 
+    "method": 4, 
+    "lower": [107, 125, 132], 
+    "upper": [[132, 130, 132]], 
+    "action": "DoNothing",
+    "post_delay": 3000,
+    "pre_delay": 0,
+    "rate_limit": 500,
+    "timeout": 10000,
+    "next": ["点确认"]
+    } ,
+
+    "点确认": {
+    "recognition": "OCR",
+    "expected": "确认",
+    "roi": [881,937,181,59], 
+    "action": "Click",
+    "post_delay": 0,
+    "pre_delay": 0,
+    "rate_limit": 500,
+    "timeout": 10000,
+    "next": ["双赢"]
+    } 
+}

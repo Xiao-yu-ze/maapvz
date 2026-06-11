@@ -17,13 +17,13 @@
     {
       "name": "自动卡双赢",
       "entry": "双赢",
-      "default_check": false,
-      "description": "执行这个任务的时候,其他任务不要勾选"
+      "default_check": true,
+      "description": "此功能只能在mumu模拟器使用,因为要通过下拉状态栏来实现双赢,但是雷电模拟器的状态栏就是一坨,所以只能在mumu上使用."
     },
     {
       "name": "地宫无尽2",
       "entry": "地宫2",
-      "default_check": true,
+      "default_check": false,
       "description": "卡槽要带对,每行都要一个双发了再在选卡界面开脚本,",
       "group": [
         "无尽"
@@ -39,14 +39,14 @@
   "InstanceName": "配置 1",
   "AdbDevice": {
     "InfoHandle": {
-      "value": 2181360389968
+      "value": 2777212238640
     },
-    "Name": "雷电模拟器-3-LDPlayer",
-    "AdbPath": "D:/leidian/LDPlayer9/adb.exe",
-    "AdbSerial": "emulator-5560",
+    "Name": "MuMu安卓设备-MuMuPlayer12 v5",
+    "AdbPath": "D:/MuMuPlayer/nx_main/adb.exe",
+    "AdbSerial": "127.0.0.1:16384",
     "ScreencapMethods": 64,
     "InputMethods": 18446744073709551607,
-    "Config": "{\"extras\":{\"ld\":{\"enable\":true,\"index\":3,\"path\":\"D:/leidian/LDPlayer9\",\"pid\":32340}}}",
+    "Config": "{\"extras\":{\"mumu\":{\"enable\":true,\"index\":0,\"path\":\"D:/MuMuPlayer\"}}}",
     "AgentPath": "./MaaAgentBinary"
   },
   "ResourceOptionItems": {},
