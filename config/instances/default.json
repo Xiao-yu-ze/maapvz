@@ -4,6 +4,8 @@
   "CurrentTasks": [
     "自动卡双赢<|||>双赢",
     "地宫无尽2<|||>地宫2",
+    "心塔自动脚本<|||>HeartTowerEntry",
+    "戴夫杯<|||>Dai_Enter",
     "oppo<|||>打开oppo服",
     "自动卡双赢<|||>double",
     "地宫无尽2<|||>digong_two",
@@ -24,22 +26,33 @@
       "name": "地宫无尽2",
       "entry": "地宫2",
       "default_check": false,
-      "description": "卡槽要带对,每行都要一个双发了再在选卡界面开脚本,",
+      "description": "卡槽要带对,每行都要一个双发了再在选卡界面开脚本,一定要有月卡",
       "group": [
         "无尽"
-      ],
+      ]
+    },
+    {
+      "name": "心塔自动脚本",
+      "entry": "HeartTowerEntry",
+      "default_check": false,
       "option": [
         {
-          "name": "无",
-          "index": 0
+          "name": "起始关卡选择",
+          "index": 2
         }
       ]
+    },
+    {
+      "name": "戴夫杯",
+      "entry": "Dai_Enter",
+      "default_check": false,
+      "description": "在匹配界面开脚本"
     }
   ],
   "InstanceName": "配置 1",
   "AdbDevice": {
     "InfoHandle": {
-      "value": 2777212238640
+      "value": 2598953806256
     },
     "Name": "MuMu安卓设备-MuMuPlayer12 v5",
     "AdbPath": "D:/MuMuPlayer/nx_main/adb.exe",

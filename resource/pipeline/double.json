@@ -115,7 +115,7 @@
     "action": "Click",
     "target": [943,858],
     "post_delay": 3000,
-    "pre_delay": 500,
+    "pre_delay": 5000,
     "next": ["公告"]
     } ,
 
@@ -134,7 +134,7 @@
     "target": [1639,94,29,13],
     "post_delay": 100,
     "pre_delay": 1000,
-    "next": ["公告的叉"]
+    "next": ["主页的竞技"]
     } ,
 
     "主页的竞技": {
@@ -147,6 +147,7 @@
 
     "双人": {
     "recognition":"OCR",
+    "roi": [836,557,829,345],
     "expected": "双人对决",
     "action": "Click",
     "post_delay": 100,
@@ -169,7 +170,7 @@
     "action": "Swipe",
     "begin": [771,1],
     "end": [771,200],
-    "duration": 100,
+    "duration": 10,
     "post_delay": 0,
     "pre_delay": 0,
     "next": ["下拉状态栏"]
@@ -180,8 +181,8 @@
     "begin": [771,1],
     "end": [771,1000],
     "duration": 5000,
-    "post_delay": 100,
-    "pre_delay": 0,
+    "post_delay": 10,
+    "pre_delay": 100,
     "next": ["上拉状态栏"]
   },
 
@@ -189,7 +190,7 @@
     "action":"Swipe",
     "begin": [934,1024],
     "end": [934,375],
-    "post_delay": 50,
+    "post_delay": 0,
     "pre_delay": 0,
     "next": ["拉出状态栏2"]
     },
@@ -198,7 +199,7 @@
     "action": "Swipe",
     "begin": [771,1],
     "end": [771,200],
-    "duration": 100,
+    "duration": 10,
     "post_delay": 0,
     "pre_delay": 0,
     "next": ["下拉状态栏2"]
@@ -209,8 +210,8 @@
     "begin": [771,1],
     "end": [771,1000],
     "duration": 5000,
-    "post_delay": 100,
-    "pre_delay": 0,
+    "post_delay": 10,
+    "pre_delay": 100,
     "next": ["上拉状态栏2"]
   },
 
@@ -218,7 +219,7 @@
     "action":"Swipe",
     "begin": [934,1024],
     "end": [934,375],
-    "post_delay": 50,
+    "post_delay": 0,
     "pre_delay": 0,
     "next": ["拉出状态栏3"]
     },
@@ -227,7 +228,7 @@
     "action": "Swipe",
     "begin": [771,1],
     "end": [771,200],
-    "duration": 100,
+    "duration": 10,
     "post_delay": 0,
     "pre_delay": 0,
     "next": ["下拉状态栏3"]
@@ -238,8 +239,8 @@
     "begin": [771,1],
     "end": [771,1000],
     "duration": 5000,
-    "post_delay": 100,
-    "pre_delay": 0,
+    "post_delay": 10,
+    "pre_delay": 100,
     "next": ["上拉状态栏3"]
   },
 
@@ -247,16 +248,16 @@
     "action":"Swipe",
     "begin": [934,1024],
     "end": [934,375],
-    "post_delay": 50,
+    "post_delay": 0,
     "pre_delay": 0,
     "next": ["拉出状态栏4"]
-    },
+    },  
 
     "拉出状态栏4": {
     "action": "Swipe",
     "begin": [771,1],
     "end": [771,200],
-    "duration": 100,
+    "duration": 10,
     "post_delay": 0,
     "pre_delay": 0,
     "next": ["下拉状态栏4"]
@@ -267,8 +268,8 @@
     "begin": [771,1],
     "end": [771,1000],
     "duration": 5000,
-    "post_delay": 100,
-    "pre_delay": 0,
+    "post_delay": 10,
+    "pre_delay": 100,
     "next": ["上拉状态栏4"]
   },
 
@@ -276,7 +277,7 @@
     "action":"Swipe",
     "begin": [934,1024],
     "end": [934,375],
-    "post_delay": 50,
+    "post_delay": 0,
     "pre_delay": 0,
     "next": ["拉出状态栏5"]
     },
@@ -285,7 +286,7 @@
     "action": "Swipe",
     "begin": [771,1],
     "end": [771,200],
-    "duration": 100,
+    "duration": 10,
     "post_delay": 0,
     "pre_delay": 0,
     "next": ["下拉状态栏5"]
@@ -296,8 +297,8 @@
     "begin": [771,1],
     "end": [771,1000],
     "duration": 5000,
-    "post_delay": 100,
-    "pre_delay": 0,
+    "post_delay": 10,
+    "pre_delay": 100,
     "next": ["上拉状态栏5"]
   },
 
@@ -305,7 +306,7 @@
     "action":"Swipe",
     "begin": [934,1024],
     "end": [934,375],
-    "post_delay": 50,
+    "post_delay": 0,
     "pre_delay": 0,
     "next": ["拉出状态栏6"]
     },
@@ -314,7 +315,7 @@
     "action": "Swipe",
     "begin": [771,1],
     "end": [771,200],
-    "duration": 100,
+    "duration": 10,
     "post_delay": 0,
     "pre_delay": 0,
     "next": ["下拉状态栏6"]
@@ -325,8 +326,8 @@
     "begin": [771,1],
     "end": [771,1000],
     "duration": 5000,
-    "post_delay": 100,
-    "pre_delay": 0,
+    "post_delay": 10,
+    "pre_delay": 100,
     "next": ["上拉状态栏6"]
   },
 
@@ -334,7 +335,7 @@
     "action":"Swipe",
     "begin": [934,1024],
     "end": [934,375],
-    "post_delay": 50,
+    "post_delay": 0,
     "pre_delay": 0,
     "next": ["拉出状态栏7"]
     },
@@ -343,7 +344,7 @@
     "action": "Swipe",
     "begin": [771,1],
     "end": [771,200],
-    "duration": 100,
+    "duration": 10,
     "post_delay": 0,
     "pre_delay": 0,
     "next": ["下拉状态栏7"]
@@ -354,8 +355,8 @@
     "begin": [771,1],
     "end": [771,1000],
     "duration": 5000,
-    "post_delay": 100,
-    "pre_delay": 0,
+    "post_delay": 10,
+    "pre_delay": 100,
     "next": ["上拉状态栏7"]
   },
 
@@ -363,7 +364,7 @@
     "action":"Swipe",
     "begin": [934,1024],
     "end": [934,375],
-    "post_delay": 50,
+    "post_delay": 0,
     "pre_delay": 0,
     "next": ["拉出状态栏8"]
     },
@@ -372,7 +373,7 @@
     "action": "Swipe",
     "begin": [771,1],
     "end": [771,200],
-    "duration": 100,
+    "duration": 10,
     "post_delay": 0,
     "pre_delay": 0,
     "next": ["下拉状态栏8"]
@@ -383,8 +384,8 @@
     "begin": [771,1],
     "end": [771,1000],
     "duration": 5000,
-    "post_delay": 100,
-    "pre_delay": 0,
+    "post_delay": 10,
+    "pre_delay": 100,
     "next": ["上拉状态栏8"]
   },
 
@@ -392,7 +393,7 @@
     "action":"Swipe",
     "begin": [934,1024],
     "end": [934,375],
-    "post_delay": 50,
+    "post_delay": 0,
     "pre_delay": 0,
     "next": ["拉出状态栏9"]
     },
@@ -401,7 +402,7 @@
     "action": "Swipe",
     "begin": [771,1],
     "end": [771,200],
-    "duration": 100,
+    "duration": 10,
     "post_delay": 0,
     "pre_delay": 0,
     "next": ["下拉状态栏9"]
@@ -412,8 +413,8 @@
     "begin": [771,1],
     "end": [771,1000],
     "duration": 5000,
-    "post_delay": 100,
-    "pre_delay": 0,
+    "post_delay": 10,
+    "pre_delay": 100,
     "next": ["上拉状态栏9"]
   },
 
@@ -421,7 +422,7 @@
     "action":"Swipe",
     "begin": [934,1024],
     "end": [934,375],
-    "post_delay": 50,
+    "post_delay": 0,
     "pre_delay": 0,
     "next": ["拉出状态栏10"]
     },
@@ -430,7 +431,7 @@
     "action": "Swipe",
     "begin": [771,1],
     "end": [771,200],
-    "duration": 100,
+    "duration": 10,
     "post_delay": 0,
     "pre_delay": 0,
     "next": ["下拉状态栏10"]
@@ -441,8 +442,8 @@
     "begin": [771,1],
     "end": [771,1000],
     "duration": 5000,
-    "post_delay": 100,
-    "pre_delay": 0,
+    "post_delay": 10,
+    "pre_delay": 100,
     "next": ["上拉状态栏10"]
   },
 
@@ -451,7 +452,7 @@
     "action":"Swipe",
     "begin": [934,1024],
     "end": [934,375],
-    "post_delay": 50,
+    "post_delay": 0,
     "pre_delay": 0,
     "next": ["拉出状态栏11"]
     },
@@ -460,7 +461,7 @@
     "action": "Swipe",
     "begin": [771,1],
     "end": [771,200],
-    "duration": 100,
+    "duration": 10,
     "post_delay": 0,
     "pre_delay": 0,
     "next": ["下拉状态栏11"]
@@ -471,8 +472,8 @@
     "begin": [771,1],
     "end": [771,1000],
     "duration": 5000,
-    "post_delay": 100,
-    "pre_delay": 0,
+    "post_delay": 10,
+    "pre_delay": 100,
     "next": ["上拉状态栏11"]
   },
 
@@ -480,7 +481,7 @@
     "action":"Swipe",
     "begin": [934,1024],
     "end": [934,375],
-    "post_delay": 50,
+    "post_delay": 0,
     "pre_delay": 0,
     "next": ["拉出状态栏12"]
     },
@@ -489,7 +490,7 @@
     "action": "Swipe",
     "begin": [771,1],
     "end": [771,200],
-    "duration": 100,
+    "duration": 10,
     "post_delay": 0,
     "pre_delay": 0,
     "next": ["下拉状态栏12"]
@@ -500,8 +501,8 @@
     "begin": [771,1],
     "end": [771,1000],
     "duration": 5000,
-    "post_delay": 100,
-    "pre_delay": 0,
+    "post_delay": 10,
+    "pre_delay": 100,
     "next": ["上拉状态栏12"]
   },
 
@@ -509,7 +510,7 @@
     "action":"Swipe",
     "begin": [934,1024],
     "end": [934,375],
-    "post_delay": 50,
+    "post_delay": 0,
     "pre_delay": 0,
     "next": ["拉出状态栏13"]
     },
@@ -518,7 +519,7 @@
     "action": "Swipe",
     "begin": [771,1],
     "end": [771,200],
-    "duration": 100,
+    "duration": 10,
     "post_delay": 0,
     "pre_delay": 0,
     "next": ["下拉状态栏13"]
@@ -529,8 +530,8 @@
     "begin": [771,1],
     "end": [771,1000],
     "duration": 5000,
-    "post_delay": 100,
-    "pre_delay": 0,
+    "post_delay": 10,
+    "pre_delay": 100,
     "next": ["上拉状态栏13"]
   },
 
@@ -538,155 +539,11 @@
     "action":"Swipe",
     "begin": [934,1024],
     "end": [934,375],
-    "post_delay": 50,
-    "pre_delay": 0,
-    "next": ["拉出状态栏14"]
-    },
-  
-    "拉出状态栏14": {
-    "action": "Swipe",
-    "begin": [771,1],
-    "end": [771,200],
-    "duration": 100,
     "post_delay": 0,
-    "pre_delay": 0,
-    "next": ["下拉状态栏14"]
-  },
-
-    "下拉状态栏14": {
-    "action": "Swipe",
-    "begin": [771,1],
-    "end": [771,1000],
-    "duration": 5000,
-    "post_delay": 100,
-    "pre_delay": 0,
-    "next": ["上拉状态栏14"]
-  },
-
-    "上拉状态栏14": {
-    "action":"Swipe",
-    "begin": [934,1024],
-    "end": [934,375],
-    "post_delay": 50,
-    "pre_delay": 0,
-    "next": ["拉出状态栏15"]
-    },
-  
-    "拉出状态栏15": {
-    "action": "Swipe",
-    "begin": [771,1],
-    "end": [771,200],
-    "duration": 100,
-    "post_delay": 0,
-    "pre_delay": 0,
-    "next": ["下拉状态栏15"]
-  },
-
-    "下拉状态栏15": {
-    "action": "Swipe",
-    "begin": [771,1],
-    "end": [771,1000],
-    "duration": 5000,
-    "post_delay": 100,
-    "pre_delay": 0,
-    "next": ["上拉状态栏15"]
-  },
-
-    "上拉状态栏15": {
-    "action":"Swipe",
-    "begin": [934,1024],
-    "end": [934,375],
-    "post_delay": 50,
-    "pre_delay": 0,
-    "next": ["拉出状态栏16"]
-    },
-  
-    "拉出状态栏16": {
-    "action": "Swipe",
-    "begin": [771,1],
-    "end": [771,200],
-    "duration": 100,
-    "post_delay": 0,
-    "pre_delay": 0,
-    "next": ["下拉状态栏16"]
-  },
-
-    "下拉状态栏16": {
-    "action": "Swipe",
-    "begin": [771,1],
-    "end": [771,1000],
-    "duration": 5000,
-    "post_delay": 100,
-    "pre_delay": 0,
-    "next": ["上拉状态栏16"]
-  },
-
-    "上拉状态栏16": {
-    "action":"Swipe",
-    "begin": [934,1024],
-    "end": [934,375],
-    "post_delay": 50,
-    "pre_delay": 0,
-    "next": ["拉出状态栏17"]
-    },
-  
-    "拉出状态栏17": {
-    "action": "Swipe",
-    "begin": [771,1],
-    "end": [771,200],
-    "duration": 100,
-    "post_delay": 0,
-    "pre_delay": 0,
-    "next": ["下拉状态栏17"]
-  },
-
-    "下拉状态栏17": {
-    "action": "Swipe",
-    "begin": [771,1],
-    "end": [771,1000],
-    "duration": 5000,
-    "post_delay": 100,
-    "pre_delay": 0,
-    "next": ["上拉状态栏17"]
-  },
-
-    "上拉状态栏17": {
-    "action":"Swipe",
-    "begin": [934,1024],
-    "end": [934,375],
-    "post_delay": 50,
-    "pre_delay": 0,
-    "next": ["拉出状态栏18"]
-    },
-
-    "拉出状态栏18": {
-    "action": "Swipe",
-    "begin": [771,1],
-    "end": [771,200],
-    "duration": 100,
-    "post_delay": 0,
-    "pre_delay": 0,
-    "next": ["下拉状态栏18"]
-  },
-
-    "下拉状态栏18": {
-    "action": "Swipe",
-    "begin": [771,1],
-    "end": [771,1000],
-    "duration": 5000,
-    "post_delay": 100,
-    "pre_delay": 0,
-    "next": ["上拉状态栏18"]
-  },
-
-    "上拉状态栏18": {
-    "action":"Swipe",
-    "begin": [934,1024],
-    "end": [934,375],
-    "post_delay": 50,
     "pre_delay": 0,
     "next": ["种海枣"]
     },
+  
     "种海枣": {
     "action": "Swipe",
     "begin": [106,242],
@@ -732,7 +589,7 @@
     "种冰龙2": {
     "action": "Swipe",
     "begin": [260,229],
-    "end": [[676,203]],
+    "end": [676,203],
     "duration": 200,
     "post_delay": 500,
     "pre_delay": 0,
@@ -754,9 +611,10 @@
     "begin": [260,229],
     "end": [682,446],
     "duration": 200,
-    "post_delay": 100000,
+    "post_delay": 10000,
     "pre_delay": 0,
-    "next": ["免控buff出现"]
+    "timeout":-1,
+    "next": ["免控buff出现","是否结算"]
   },
 
     "免控buff出现": {
@@ -776,6 +634,7 @@
     "target": [290,768],
     "post_delay": 0,
     "pre_delay": 0,
+    "timeout":-1,
     "next": ["是否结算","放橄榄球"]
   },
 
@@ -784,12 +643,12 @@
     "roi": [1842,23,33,35], 
     "method": 4, 
     "lower": [107, 125, 132], 
-    "upper": [[132, 130, 132]], 
+    "upper": [132, 130, 132], 
     "action": "DoNothing",
     "post_delay": 3000,
     "pre_delay": 0,
     "rate_limit": 500,
-    "timeout": 10000,
+    "timeout": -1,
     "next": ["点确认"]
     } ,
 
