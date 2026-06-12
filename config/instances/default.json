@@ -19,8 +19,8 @@
     {
       "name": "自动卡双赢",
       "entry": "双赢",
-      "default_check": true,
-      "description": "此功能只能在mumu模拟器使用,因为要通过下拉状态栏来实现双赢,但是雷电模拟器的状态栏就是一坨,所以只能在mumu上使用."
+      "default_check": false,
+      "description": "在双人界面使用即可"
     },
     {
       "name": "地宫无尽2",
@@ -45,14 +45,14 @@
     {
       "name": "戴夫杯",
       "entry": "Dai_Enter",
-      "default_check": false,
+      "default_check": true,
       "description": "在匹配界面开脚本"
     }
   ],
   "InstanceName": "配置 1",
   "AdbDevice": {
     "InfoHandle": {
-      "value": 2598953806256
+      "value": 2484547578048
     },
     "Name": "MuMu安卓设备-MuMuPlayer12 v5",
     "AdbPath": "D:/MuMuPlayer/nx_main/adb.exe",

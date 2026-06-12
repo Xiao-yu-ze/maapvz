@@ -18,6 +18,7 @@
     "next": ["竞技"]
     } ,
 
+
     "竞技": {
     "action": "Click",
     "target": [1447,611,61,67],
@@ -163,384 +164,34 @@
     "post_delay": 100,
     "pre_delay": 1000,
     "timeout": 15000,
-    "next": ["拉出状态栏"]
+    "next": ["double_循环"]
     } ,
 
-    "拉出状态栏": {
-    "action": "Swipe",
-    "begin": [771,1],
-    "end": [771,200],
-    "duration": 10,
-    "post_delay": 0,
-    "pre_delay": 0,
-    "next": ["下拉状态栏"]
-  },
-
-    "下拉状态栏": {
-    "action": "Swipe",
-    "begin": [771,1],
-    "end": [771,1000],
-    "duration": 5000,
-    "post_delay": 10,
-    "pre_delay": 100,
-    "next": ["上拉状态栏"]
-  },
-
-    "上拉状态栏": {
-    "action":"Swipe",
-    "begin": [934,1024],
-    "end": [934,375],
-    "post_delay": 0,
-    "pre_delay": 0,
-    "next": ["拉出状态栏2"]
-    },
+    "double_循环": {
+    "action": "ClickKey",
+    "key": 3,
     
-    "拉出状态栏2": {
-    "action": "Swipe",
-    "begin": [771,1],
-    "end": [771,200],
-    "duration": 10,
-    "post_delay": 0,
-    "pre_delay": 0,
-    "next": ["下拉状态栏2"]
-  },
-
-    "下拉状态栏2": {
-    "action": "Swipe",
-    "begin": [771,1],
-    "end": [771,1000],
-    "duration": 5000,
-    "post_delay": 10,
-    "pre_delay": 100,
-    "next": ["上拉状态栏2"]
-  },
-
-    "上拉状态栏2": {
-    "action":"Swipe",
-    "begin": [934,1024],
-    "end": [934,375],
-    "post_delay": 0,
-    "pre_delay": 0,
-    "next": ["拉出状态栏3"]
+    "next": ["double_开游戏","double_开游戏1"]
     },
-
-    "拉出状态栏3": {
-    "action": "Swipe",
-    "begin": [771,1],
-    "end": [771,200],
-    "duration": 10,
-    "post_delay": 0,
-    "pre_delay": 0,
-    "next": ["下拉状态栏3"]
-  },
-
-    "下拉状态栏3": {
-    "action": "Swipe",
-    "begin": [771,1],
-    "end": [771,1000],
-    "duration": 5000,
-    "post_delay": 10,
-    "pre_delay": 100,
-    "next": ["上拉状态栏3"]
-  },
-
-    "上拉状态栏3": {
-    "action":"Swipe",
-    "begin": [934,1024],
-    "end": [934,375],
-    "post_delay": 0,
-    "pre_delay": 0,
-    "next": ["拉出状态栏4"]
-    },  
-
-    "拉出状态栏4": {
-    "action": "Swipe",
-    "begin": [771,1],
-    "end": [771,200],
-    "duration": 10,
-    "post_delay": 0,
-    "pre_delay": 0,
-    "next": ["下拉状态栏4"]
-  },
-
-    "下拉状态栏4": {
-    "action": "Swipe",
-    "begin": [771,1],
-    "end": [771,1000],
-    "duration": 5000,
-    "post_delay": 10,
-    "pre_delay": 100,
-    "next": ["上拉状态栏4"]
-  },
-
-    "上拉状态栏4": {
-    "action":"Swipe",
-    "begin": [934,1024],
-    "end": [934,375],
-    "post_delay": 0,
-    "pre_delay": 0,
-    "next": ["拉出状态栏5"]
+    "double_开游戏": {
+    "recognition": "TemplateMatch",
+    "template": "double/游戏图标.png",
+    "threshold":0.7,
+    "roi": [4,3,1919,1058],
+    "pre_delay":5000,
+    "max_hit": 14,
+    "action": "Click",
+    "next": ["double_循环"]
     },
-
-    "拉出状态栏5": {
-    "action": "Swipe",
-    "begin": [771,1],
-    "end": [771,200],
-    "duration": 10,
-    "post_delay": 0,
-    "pre_delay": 0,
-    "next": ["下拉状态栏5"]
-  },
-
-    "下拉状态栏5": {
-    "action": "Swipe",
-    "begin": [771,1],
-    "end": [771,1000],
-    "duration": 5000,
-    "post_delay": 10,
-    "pre_delay": 100,
-    "next": ["上拉状态栏5"]
-  },
-
-    "上拉状态栏5": {
-    "action":"Swipe",
-    "begin": [934,1024],
-    "end": [934,375],
-    "post_delay": 0,
-    "pre_delay": 0,
-    "next": ["拉出状态栏6"]
-    },
-
-    "拉出状态栏6": {
-    "action": "Swipe",
-    "begin": [771,1],
-    "end": [771,200],
-    "duration": 10,
-    "post_delay": 0,
-    "pre_delay": 0,
-    "next": ["下拉状态栏6"]
-  },
-
-    "下拉状态栏6": {
-    "action": "Swipe",
-    "begin": [771,1],
-    "end": [771,1000],
-    "duration": 5000,
-    "post_delay": 10,
-    "pre_delay": 100,
-    "next": ["上拉状态栏6"]
-  },
-
-    "上拉状态栏6": {
-    "action":"Swipe",
-    "begin": [934,1024],
-    "end": [934,375],
-    "post_delay": 0,
-    "pre_delay": 0,
-    "next": ["拉出状态栏7"]
-    },
-
-    "拉出状态栏7": {
-    "action": "Swipe",
-    "begin": [771,1],
-    "end": [771,200],
-    "duration": 10,
-    "post_delay": 0,
-    "pre_delay": 0,
-    "next": ["下拉状态栏7"]
-  },
-
-    "下拉状态栏7": {
-    "action": "Swipe",
-    "begin": [771,1],
-    "end": [771,1000],
-    "duration": 5000,
-    "post_delay": 10,
-    "pre_delay": 100,
-    "next": ["上拉状态栏7"]
-  },
-
-    "上拉状态栏7": {
-    "action":"Swipe",
-    "begin": [934,1024],
-    "end": [934,375],
-    "post_delay": 0,
-    "pre_delay": 0,
-    "next": ["拉出状态栏8"]
-    },
-
-    "拉出状态栏8": {
-    "action": "Swipe",
-    "begin": [771,1],
-    "end": [771,200],
-    "duration": 10,
-    "post_delay": 0,
-    "pre_delay": 0,
-    "next": ["下拉状态栏8"]
-  },
-
-    "下拉状态栏8": {
-    "action": "Swipe",
-    "begin": [771,1],
-    "end": [771,1000],
-    "duration": 5000,
-    "post_delay": 10,
-    "pre_delay": 100,
-    "next": ["上拉状态栏8"]
-  },
-
-    "上拉状态栏8": {
-    "action":"Swipe",
-    "begin": [934,1024],
-    "end": [934,375],
-    "post_delay": 0,
-    "pre_delay": 0,
-    "next": ["拉出状态栏9"]
-    },
-
-    "拉出状态栏9": {
-    "action": "Swipe",
-    "begin": [771,1],
-    "end": [771,200],
-    "duration": 10,
-    "post_delay": 0,
-    "pre_delay": 0,
-    "next": ["下拉状态栏9"]
-  },
-
-    "下拉状态栏9": {
-    "action": "Swipe",
-    "begin": [771,1],
-    "end": [771,1000],
-    "duration": 5000,
-    "post_delay": 10,
-    "pre_delay": 100,
-    "next": ["上拉状态栏9"]
-  },
-
-    "上拉状态栏9": {
-    "action":"Swipe",
-    "begin": [934,1024],
-    "end": [934,375],
-    "post_delay": 0,
-    "pre_delay": 0,
-    "next": ["拉出状态栏10"]
-    },
-  
-    "拉出状态栏10": {
-    "action": "Swipe",
-    "begin": [771,1],
-    "end": [771,200],
-    "duration": 10,
-    "post_delay": 0,
-    "pre_delay": 0,
-    "next": ["下拉状态栏10"]
-  },
-
-    "下拉状态栏10": {
-    "action": "Swipe",
-    "begin": [771,1],
-    "end": [771,1000],
-    "duration": 5000,
-    "post_delay": 10,
-    "pre_delay": 100,
-    "next": ["上拉状态栏10"]
-  },
-
-
-    "上拉状态栏10": {
-    "action":"Swipe",
-    "begin": [934,1024],
-    "end": [934,375],
-    "post_delay": 0,
-    "pre_delay": 0,
-    "next": ["拉出状态栏11"]
-    },
-  
-    "拉出状态栏11": {
-    "action": "Swipe",
-    "begin": [771,1],
-    "end": [771,200],
-    "duration": 10,
-    "post_delay": 0,
-    "pre_delay": 0,
-    "next": ["下拉状态栏11"]
-  },
-
-    "下拉状态栏11": {
-    "action": "Swipe",
-    "begin": [771,1],
-    "end": [771,1000],
-    "duration": 5000,
-    "post_delay": 10,
-    "pre_delay": 100,
-    "next": ["上拉状态栏11"]
-  },
-
-    "上拉状态栏11": {
-    "action":"Swipe",
-    "begin": [934,1024],
-    "end": [934,375],
-    "post_delay": 0,
-    "pre_delay": 0,
-    "next": ["拉出状态栏12"]
-    },
-  
-    "拉出状态栏12": {
-    "action": "Swipe",
-    "begin": [771,1],
-    "end": [771,200],
-    "duration": 10,
-    "post_delay": 0,
-    "pre_delay": 0,
-    "next": ["下拉状态栏12"]
-  },
-
-    "下拉状态栏12": {
-    "action": "Swipe",
-    "begin": [771,1],
-    "end": [771,1000],
-    "duration": 5000,
-    "post_delay": 10,
-    "pre_delay": 100,
-    "next": ["上拉状态栏12"]
-  },
-
-    "上拉状态栏12": {
-    "action":"Swipe",
-    "begin": [934,1024],
-    "end": [934,375],
-    "post_delay": 0,
-    "pre_delay": 0,
-    "next": ["拉出状态栏13"]
-    },
-  
-    "拉出状态栏13": {
-    "action": "Swipe",
-    "begin": [771,1],
-    "end": [771,200],
-    "duration": 10,
-    "post_delay": 0,
-    "pre_delay": 0,
-    "next": ["下拉状态栏13"]
-  },
-
-    "下拉状态栏13": {
-    "action": "Swipe",
-    "begin": [771,1],
-    "end": [771,1000],
-    "duration": 5000,
-    "post_delay": 10,
-    "pre_delay": 100,
-    "next": ["上拉状态栏13"]
-  },
-
-    "上拉状态栏13": {
-    "action":"Swipe",
-    "begin": [934,1024],
-    "end": [934,375],
-    "post_delay": 0,
-    "pre_delay": 0,
+    "double_开游戏1": {
+    "recognition": "TemplateMatch",
+    "template": "double/游戏图标.png",
+    "threshold":0.7,
+    "roi": [4,3,1919,1058],
+    "pre_delay":3000,
+    "post_delay": 1000,
+    "max_hit": 14,
+    "action": "Click",
     "next": ["种海枣"]
     },
   
@@ -632,8 +283,8 @@
     "放橄榄球": {
     "action": "Click",
     "target": [290,768],
-    "post_delay": 0,
-    "pre_delay": 0,
+    "post_delay": 500,
+    "pre_delay": 500,
     "timeout":-1,
     "next": ["是否结算","放橄榄球"]
   },
@@ -662,5 +313,7 @@
     "rate_limit": 500,
     "timeout": 10000,
     "next": ["双赢"]
-    } 
+    }
+    
+
 }
