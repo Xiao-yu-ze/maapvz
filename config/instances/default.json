@@ -52,7 +52,7 @@
   "InstanceName": "配置 1",
   "AdbDevice": {
     "InfoHandle": {
-      "value": 2484547578048
+      "value": 2266179466352
     },
     "Name": "MuMu安卓设备-MuMuPlayer12 v5",
     "AdbPath": "D:/MuMuPlayer/nx_main/adb.exe",
@@ -64,5 +64,6 @@
   },
   "ResourceOptionItems": {},
   "CurrentController": 2,
-  "RetryOnDisconnected": true
+  "RetryOnDisconnected": true,
+  "UI.LiveView.RefreshRate": 30.0
 }

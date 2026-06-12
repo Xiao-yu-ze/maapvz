@@ -70,7 +70,7 @@
   },
   "UI.DashboardCardGrid.ResourceLayoutHash.TaskQueueView": "8962C0D3B352F180BDD17B02B4FC6D2FD45565EC8E4A832B52443D453653CAF0",
   "FontScale": 1.1,
-  "DownloadSourceIndex": 1,
-  "EnableCheckVersion": false,
-  "EnableAutoUpdateResource": false
+  "DownloadSourceIndex": 0,
+  "EnableCheckVersion": true,
+  "EnableAutoUpdateResource": true
 }
